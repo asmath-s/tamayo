@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1200px) {
+  .trust h5 {
+    font-size: 18px;
+  }
+  .phone i {
+    padding: 8px;
+  }
+  .phone h5 {
+    font-size: 15px;
+  }
+  .social-icons i {
+    font-size: 16px;
+  }
+  .social-media,
+  .trust,
+  .phone {
+    gap: 8px;
+  }
+  .trust img {
+    width: 50px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .admissionbutton {
+    padding: 8px 15px;
+    border-radius: 99px;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 8px;
+  }
+  .navbar {
+    gap: 15px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+}
