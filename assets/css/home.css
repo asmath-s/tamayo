@@ -160,6 +160,10 @@
   line-height: 40px;
   font-weight: 700;
 }
+.lifeHead img,
+.facilitiesHead img {
+  width: 120px;
+}
 .lifePoints1 li {
   list-style: none;
   position: relative;
@@ -242,6 +246,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -313,7 +318,7 @@
   background: linear-gradient(to bottom, #004faf, #00234e);
 }
 .accreditationBox {
-  padding: 30px 0;
+  padding: 25px 0;
 }
 .accreditationHead {
   display: flex;
@@ -334,6 +339,86 @@
   margin-top: 35px;
 }
 .accreditImg img {
-  width: 300px;
+  width: 250px;
   padding: 20px;
+}
+.adavnce {
+  overflow: hidden;
+  position: relative;
+}
+.adavnce::before {
+  content: "";
+  background-image: url(../images/home/building1\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.adavnceBox {
+  padding: 30px 0;
+}
+.advanceContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advanceContent h3 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.advanceContent p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #004faf;
+}
+.facilities {
+  display: flex;
+  background-color: #f8c629;
+}
+.facilitiesBox {
+  padding: 50px 0;
+}
+.facilitiesBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facilitiesImg {
+  padding-left: 50px;
+}
+.facilitiesImg img {
+  width: 350px;
+}
+.facilitiesHead {
+  margin-bottom: 20px;
+}
+.facilitiesHead h3 {
+  line-height: 40px;
+  font-weight: 700;
+}
+.facilitiesPoints li {
+  list-style: none;
+  position: relative;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: justify;
+}
+.facilitiesPoints li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/home/point\ 1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
