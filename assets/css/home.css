@@ -314,31 +314,39 @@
   text-align: justify;
   color: #000;
 }
-.accreditation {
+.accreditation,
+.associates {
   background: linear-gradient(to bottom, #004faf, #00234e);
 }
-.accreditationBox {
+.accreditationBox,
+.associatesBox {
   padding: 25px 0;
 }
-.accreditationHead {
+.accreditationHead,
+.associatesHead {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.accreditationHead h3 {
+.accreditationHead h3,
+.associatesHead h3 {
   color: #fff;
 }
-.accreditationHead img {
+.accreditationHead img,
+.associatesHead img {
   width: 125px;
   border-radius: 35px;
+  margin-top: 10px;
 }
-.accreditImg {
+.accreditImg,
+.associatesImg {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 35px;
 }
-.accreditImg img {
+.accreditImg img,
+.associatesImg img {
   width: 250px;
   padding: 20px;
 }
@@ -388,7 +396,7 @@
   justify-content: center;
 }
 .facilitiesImg {
-  padding-left: 50px;
+  padding-left: 40px;
 }
 .facilitiesImg img {
   width: 350px;
@@ -400,25 +408,153 @@
   line-height: 40px;
   font-weight: 700;
 }
-.facilitiesPoints li {
-  list-style: none;
+.facilitiesPoints {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
   position: relative;
-  padding-left: 35px;
-  padding-bottom: 15px;
-  padding-top: 2px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #000;
-  text-align: justify;
 }
-.facilitiesPoints li::before {
-  content: "";
+.facilitiesPoints span {
+  font-family: "Lato", sans-serif;
+  color: #00234e;
+  font-size: 25px;
+  font-weight: 900;
   position: absolute;
   left: 0;
-  top: 9px;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/home/point\ 1.png);
-  background-size: contain;
+  top: -3px;
+}
+.facilitiesPoints p {
+  padding-left: 40px;
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+}
+.campusFacilities {
+  overflow: hidden;
+  position: relative;
+}
+.campusFacilities::before {
+  content: "";
+  background-image: url(../images/home/pattern-14.webp);
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.campusFacilitiesHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.campusFacilitiesBox {
+  padding: 50px 0;
+}
+.campusFacilitiesHead h3 {
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.campusFacilitiesHead img {
+  width: 160px;
+  margin-top: 10px;
+}
+.facilities-carousel {
+  display: flex !important;
+}
+.facilitiesCol {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  margin: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.facilitieBox3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.campusFacilitiesImg {
+  background: linear-gradient(to bottom, #004faf, #00234e);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.campusFacilitiesImg img {
+  width: 48px;
+}
+.facilitiesCol p {
+  text-align: center;
+  margin-top: 15px;
+}
+.faq {
+  background: linear-gradient(to bottom, #004faf, #00234e);
+}
+.faqBox {
+  padding: 50px 0;
+}
+.faqHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.faqHead h3 {
+  color: #fff;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+.faqHead img {
+  width: 100px;
+  border-radius: 100px;
+}
+.ctaBox {
+  padding: 20px;
+}
+.ctaContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ctaContent p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 800;
+}
+.ContactBtn {
+  background-color: #f8c629;
+  padding: 10px;
+  border-radius: 67px;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.ContactBtn:hover {
+  font-size: 16px;
+  color: white !important;
+  /* line-height: 1; */
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  /* overflow: hidden;
+  display: inline-table; */
+  padding: 10px;
+  border-radius: 67px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #004faf, #00234e);
 }
