@@ -12,7 +12,22 @@
 }
 .footerSide1Box p {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
+}
+.readMoreBtn {
+  display: flex;
+  align-items: center;
+}
+.readMoreBtn button {
+  position: relative;
+  padding: 6px 20px;
+  background: #f8c629;
+  font-size: 18px;
+  outline: none;
+  border-radius: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
 }
 .footerSide2 {
   display: flex;
@@ -22,9 +37,11 @@
   display: flex;
   flex-direction: column;
 }
-.offialInfo h3 {
-  color: #fff;
+.offialInfo h3,
+.openTime h3 {
+  color: #f8c629;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .offialInfo a {
   display: flex;
@@ -37,4 +54,15 @@
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+}
+.openTime p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footerSide2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
