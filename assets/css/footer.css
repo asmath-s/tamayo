@@ -1,0 +1,40 @@
+.footer-area {
+  display: flex;
+  background: linear-gradient(to bottom, #00234e, #004faf);
+}
+.footerSide1Box {
+  display: flex;
+  flex-direction: column;
+}
+.footerLogo img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.footerSide1Box p {
+  color: #fff;
+  margin-bottom: 50px;
+}
+.footerSide2 {
+  display: flex;
+  flex-direction: column;
+}
+.offialInfo {
+  display: flex;
+  flex-direction: column;
+}
+.offialInfo h3 {
+  color: #fff;
+  font-weight: 600;
+}
+.offialInfo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.offialInfo a span {
+  margin-left: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
