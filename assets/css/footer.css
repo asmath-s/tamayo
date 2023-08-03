@@ -8,11 +8,11 @@
 }
 .footerLogo img {
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .footerSide1Box p {
   color: #fff;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 .readMoreBtn {
   display: flex;
@@ -22,7 +22,7 @@
   position: relative;
   padding: 6px 20px;
   background: #f8c629;
-  font-size: 18px;
+  font-size: 16px;
   outline: none;
   border-radius: 20px;
   font-weight: 600;
@@ -55,6 +55,11 @@
   font-size: 16px;
   font-weight: 500;
 }
+.offialInfo p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
 .openTime p {
   color: #fff;
   font-size: 16px;
@@ -65,4 +70,53 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.Contactform1 {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+.Contactform1 h5 {
+  margin-bottom: 12px;
+}
+.subBtn {
+  display: flex;
+  align-items: center;
+}
+.subBtn button {
+  position: relative;
+  padding: 6px 20px;
+  background: #f8c629;
+  font-size: 16px;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.copy-right-area {
+  background-color: #004faf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.copy-right-area p {
+  color: white;
+}
+
+.copy-right-area p i {
+  position: relative;
+  top: 2px;
+}
+
+.copy-right-area p a {
+  color: white;
+  font-weight: 400;
+}
+
+.copy-right-area p a:hover {
+  color: var(--main-color);
 }
