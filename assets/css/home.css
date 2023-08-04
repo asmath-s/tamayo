@@ -41,13 +41,12 @@
   text-align: left;
   font-size: 18px;
 }
-.homeimg1 img,
-.homeimg2 img {
+.homeAboutImg1 img,
+.homeAboutImg2 img {
   width: 100%;
 }
 .homeContent1 {
   display: flex;
-  align-items: center;
   padding: 3px 30px;
   flex-direction: column;
   justify-content: center;
