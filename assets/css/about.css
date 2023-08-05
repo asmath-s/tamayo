@@ -29,3 +29,119 @@
 .aboutBoxImg {
   text-align: center;
 }
+.aboutBox2 {
+  overflow: hidden;
+  position: relative;
+}
+.aboutBox2::before {
+  content: "";
+  background-image: url(../images/home/pattern-14.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.about2 {
+  padding: 50px 0;
+}
+.aboutstd {
+  display: flex;
+  align-items: center;
+}
+.aboutContent4 {
+  text-align: justify;
+  padding-left: 30px;
+}
+.studySlide {
+  padding: 50px 30px;
+  background-color: #ffc002;
+}
+.studySlideHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.studySlide-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+.studySlideHead h3 {
+  margin-bottom: 10px;
+}
+.studySlideCol {
+  border: solid 5px #004293;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.studySlideContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.studySlideImg {
+  background: #004faf;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.studySlideImg img {
+  width: 48px;
+}
+.studySlideContent p {
+  text-align: center;
+}
+.ourfaculties {
+  overflow: hidden;
+  position: relative;
+}
+.ourfaculties::before {
+  content: "";
+  background-image: url(../images/about/lab2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.ourfaculties::after {
+  content: "";
+  background-color: rgb(255 255 255 / 63%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.ourfacultiesContentBox {
+  padding: 50px 0;
+}
+.ourfacultiesHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ourfacultiesHead img {
+  width: 120px;
+}
+.ourfacultiesContent p {
+  text-align: center;
+}

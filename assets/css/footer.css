@@ -1,6 +1,8 @@
 .footer-area {
   display: flex;
   background: linear-gradient(to bottom, #00234e, #004faf);
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .footerSide1Box {
   display: flex;

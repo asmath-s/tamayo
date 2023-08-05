@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  overflow-x: hidden;
 }
 body {
   background-color: white;
@@ -74,7 +75,7 @@ h6 {
 
 p {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 15px;
   line-height: 1.8;
 }
@@ -92,4 +93,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
 }

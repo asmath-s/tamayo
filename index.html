@@ -10,10 +10,33 @@
       type="image/x-icon"
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+      integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <script
       src="https://kit.fontawesome.com/b0eb9bd990.js"
@@ -23,6 +46,7 @@
     <link rel="stylesheet" href="/assets/css/header.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/about.css" />
     <link rel="stylesheet" href="/assets/css/responsive.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
@@ -109,8 +133,10 @@
 
     <section class="homeAbout">
       <div class="row" style="background-color: #f8c629">
-        <div class="col-lg-6 homeAboutImg1" style="padding: 0">
-          <img src="/assets/images/home/entrance-building.jpg" alt="" />
+        <div class="col-lg-6">
+          <div class="homeAboutImg1">
+            <img src="/assets/images/home/entrance-building.jpg" alt="" />
+          </div>
         </div>
         <div class="col-lg-6 homeContent1">
           <h3>About UPH- Dr. Jose. G Tamayo Medical University</h3>
@@ -137,38 +163,44 @@
             the medical field and enhancing their practical skills.
           </p>
         </div>
-        <div class="col-lg-6 homeAboutImg2" style="padding: 0">
-          <img src="/assets/images/home/library-entrance.jpg" alt="" />
+        <div class="col-lg-6">
+          <div class="homeAboutImg2">
+            <img src="/assets/images/home/library-entrance.jpg" alt="" />
+          </div>
         </div>
       </div>
 
       <div class="homeBox3">
-        <div class="container homeMiddel">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="homeVideo1">
-                <img src="/assets//images/home/entrance-building.jpg" />
+        <div class="container">
+          <div class="homeAboutBox1">
+            <div class="row">
+              <div class="col-lg-6 homeVideo1">
+                <div class="">
+                  <img src="/assets//images/home/entrance-building.jpg" />
+                </div>
               </div>
-            </div>
-            <div class="col-lg-6 homeContent3">
-              <p>
-                <strong>At Tamayo</strong> , students can explore anatomy,
-                cadaver, Simulation lab, Medical library, Research Centers
-                physiology, equipped with cutting-edge facilities that
-                facilitate hands-on learning experiences. Our curriculum is
-                designed to provide ample opportunities for students to apply
-                their theoretical knowledge in real-world settings. With
-                experienced faculty available to aid their efforts through
-                engaging teaching methodologies that support complex concepts
-                for greater grasping by the student body.
-              </p>
+              <div class="col-lg-6">
+                <div class="homeContent3">
+                  <p>
+                    <strong>At Tamayo</strong> , students can explore anatomy,
+                    cadaver, Simulation lab, Medical library, Research Centers
+                    physiology, equipped with cutting-edge facilities that
+                    facilitate hands-on learning experiences. Our curriculum is
+                    designed to provide ample opportunities for students to
+                    apply their theoretical knowledge in real-world settings.
+                    With experienced faculty available to aid their efforts
+                    through engaging teaching methodologies that support complex
+                    concepts for greater grasping by the student body.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="homeBox4">
-        <div class="container homeUnder">
+        <div class="container">
           <div class="homeContent4">
             <p>
               Moreover, the university offers various student support services,
@@ -184,87 +216,98 @@
 
       <div class="middelBanner">
         <div class="middelImg">
-          <img src="/assets/images/home/middleBanner.png" alt="" />
+          <img src="/assets/images/home/47year.webp" alt="" />
         </div>
       </div>
     </section>
 
     <section class="studLife1">
-      <div class="container studLifeBox1">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="lifeHead">
-              <h3>Our Students Life In Dr.Jose.G.Tamayo Medical University</h3>
-              <img src="/assets/images/home/Line 9.png" />
+      <div class="container">
+        <div class="studLifeBox1">
+          <div class="row">
+            <div class="col-lg-6 stuLifeCol">
+              <div class="lifeHead">
+                <h3>
+                  Our Students Life In Dr.Jose.G.Tamayo Medical University
+                </h3>
+                <img src="/assets/images/home/Line 9.png" />
+              </div>
+              <div>
+                <ul class="lifePoints1">
+                  <li>
+                    Medical student life is a unique experience. From the
+                    rigorous academic demands to the rewarding clinical
+                    rotations, it can be an exciting and challenging journey.
+                    But there is much more to medical university than just
+                    academics.
+                  </li>
+                  <li>
+                    At our university, students enjoy a vibrant campus life with
+                    plenty of activities and opportunities for socialization.
+                    There are numerous extracurricular activities, such as
+                    intramural sports, student clubs, and community outreach
+                    programs. This gives students the ability to develop
+                    meaningful relationships with their peers faculty and staff.
+                  </li>
+                  <li>
+                    At our university, students enjoy a vibrant campus life with
+                    plenty of activities and opportunities for socialization.
+                    There are numerous extracurricular activities, such as
+                    intramural sports, student clubs, and community outreach
+                    programs. This gives students the ability to develop
+                    meaningful relationships with their peers faculty and staff.
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <ul class="lifePoints1">
-                <li>
-                  Medical student life is a unique experience. From the rigorous
-                  academic demands to the rewarding clinical rotations, it can
-                  be an exciting and challenging journey. But there is much more
-                  to medical university than just academics.
-                </li>
-                <li>
-                  At our university, students enjoy a vibrant campus life with
-                  plenty of activities and opportunities for socialization.
-                  There are numerous extracurricular activities, such as
-                  intramural sports, student clubs, and community outreach
-                  programs. This gives students the ability to develop
-                  meaningful relationships with their peers faculty and staff.
-                </li>
-                <li>
-                  At our university, students enjoy a vibrant campus life with
-                  plenty of activities and opportunities for socialization.
-                  There are numerous extracurricular activities, such as
-                  intramural sports, student clubs, and community outreach
-                  programs. This gives students the ability to develop
-                  meaningful relationships with their peers faculty and staff.
-                </li>
-              </ul>
+            <div class="col-lg-6 studLifeImg1">
+              <div class="">
+                <img src="/assets/images/home/stud life 1.png" alt="" />
+              </div>
             </div>
-          </div>
-          <div class="col-lg-6 studLifeImg1">
-            <img src="/assets/images/home/stud life 1.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
     <section class="studLife2">
-      <div class="container studLifeBox2">
-        <div class="row">
-          <div class="col-lg-6 studLifeImg2">
-            <img src="/assets/images/home/stud life 2.png" alt="" />
-          </div>
-          <div class="col-lg-6 studLifeConten">
-            <div>
-              <ul class="lifePoints2">
-                <li>
-                  As part of our MBBS program, we place great emphasis on
-                  clinical training from its initial stages. With strong ties to
-                  top hospitals and healthcare centers, students at Tamayo can
-                  take advantage of opportunities provided by these
-                  relationships to gain hands-on experience while working
-                  closely with patients under supervision.
-                </li>
-                <li>
-                  As part of our effort to achieve a harmonious work-life
-                  balance, we offer time management workshops as part of the
-                  curriculum. Furthermore, extracurricular activities and
-                  participation in sports, cultural events, clubs, etc are
-                  promoted so students may gain additional life experiences
-                  while remaining focused on academics.
-                </li>
-                <li>
-                  Our goal is to offer world-class medical education in English
-                  in an inclusive, engaging learning environment for
-                  international students. Tamayo Medical University provides
-                  international students, world-class medical education in an
-                  English medium environment for an ideal platform to build
-                  careers as medical healers.
-                </li>
-              </ul>
+      <div class="container">
+        <div class="studLifeBox2">
+          <div class="row">
+            <div class="col-lg-6 studLifeImg2">
+              <div>
+                <img src="/assets/images/home/std life 2.webp" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 studLifeConten">
+              <div>
+                <ul class="lifePoints2">
+                  <li>
+                    As part of our MBBS program, we place great emphasis on
+                    clinical training from its initial stages. With strong ties
+                    to top hospitals and healthcare centers, students at Tamayo
+                    can take advantage of opportunities provided by these
+                    relationships to gain hands-on experience while working
+                    closely with patients under supervision.
+                  </li>
+                  <li>
+                    As part of our effort to achieve a harmonious work-life
+                    balance, we offer time management workshops as part of the
+                    curriculum. Furthermore, extracurricular activities and
+                    participation in sports, cultural events, clubs, etc are
+                    promoted so students may gain additional life experiences
+                    while remaining focused on academics.
+                  </li>
+                  <li>
+                    Our goal is to offer world-class medical education in
+                    English in an inclusive, engaging learning environment for
+                    international students. Tamayo Medical University provides
+                    international students, world-class medical education in an
+                    English medium environment for an ideal platform to build
+                    careers as medical healers.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -272,50 +315,49 @@
     </section>
 
     <section class="testamonial">
-      <div class="container testamonialContainer">
-        <div class="testamonialBox">
-          <div class="testamonialHead">
-            <h3>Testamonial</h3>
-            <img src="/assets/images/home/Line 9.png" />
-          </div>
+      <div class="container">
+        <div class="testamonialContainer">
+          <div class="testamonialBox">
+            <div class="testamonialHead">
+              <h3>Testamonial</h3>
+              <img src="/assets/images/home/Line 9.png" />
+            </div>
 
-          <div style="display: flex; justify-content: center">
-            <div class="testamonialContentBox">
-              <div class="testamonialContent">
+            <div class="testamonialBox2">
+              <div class="testamonialContentBox">
                 <div class="testamonialImg">
                   <div class="graduatedImg">
                     <img src="/assets/images/home/graduated.png" alt="" />
                   </div>
                   <h4>Ritheesh</h4>
                 </div>
-
-                <div class="testamonialPara">
-                  <p>
-                    “I attended Dr.Jose.G.Tamayo Medical University and was
-                    extremely impressed by the quality of education they
-                    provided. From top-notch professors to well-structured
-                    courses, my experience at the university has been nothing
-                    short of amazing. The medical university provides a safe,
-                    secure and engaging learning environment for students to
-                    thrive in. I'm proud to have graduated from Dr.Jose.G.Tamayo
-                    Medical University!”
-                  </p>
+                <div class="testamonialContent">
+                  <div>
+                    <p>
+                      “I attended Dr.Jose.G.Tamayo Medical University and was
+                      extremely impressed by the quality of education they
+                      provided. From top-notch professors to well-structured
+                      courses, my experience at the university has been nothing
+                      short of amazing. The medical university provides a safe,
+                      secure and engaging learning environment for students to
+                      thrive in. I'm proud to have graduated from
+                      Dr.Jose.G.Tamayo Medical University!”
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- <div class="row" style="display: flex; justify-content: center">
-              <div class="col-lg-7">
-                <div class="testamonialContent">
-                  <div class="testamonialImg">
-                    <div class="graduatedImg">
-                      <img src="/assets/images/home/graduated.png" alt="" />
-                    </div>
-                    <h4>Rajat</h4>
+            <!-- <div class="testamonialBox2">
+              <div class="testamonialContentBox">
+                <div class="testamonialImg">
+                  <div class="graduatedImg">
+                    <img src="/assets/images/home/graduated.png" alt="" />
                   </div>
-
-                  <div class="testamonialPara">
+                  <h4>Rajat</h4>
+                </div>
+                <div class="testamonialContent">
+                  <div>
                     <p>
                       “I had the pleasure of attending Dr.Jose.G.Tamayo Medical
                       University and it was one of the best decisions I have
@@ -331,17 +373,16 @@
               </div>
             </div>
 
-            <div class="row" style="display: flex; justify-content: center">
-              <div class="col-lg-7">
-                <div class="testamonialContent">
-                  <div class="testamonialImg">
-                    <div class="graduatedImg">
-                      <img src="/assets/images/home/graduated.png" alt="" />
-                    </div>
-                    <h4>Karuniya</h4>
+              <div class="testamonialBox2">
+              <div class="testamonialContentBox">
+                <div class="testamonialImg">
+                  <div class="graduatedImg">
+                    <img src="/assets/images/home/graduated.png" alt="" />
                   </div>
-
-                  <div class="testamonialPara">
+                  <h4>Karuniya</h4>
+                </div>
+                <div class="testamonialContent">
+                  <div>
                     <p>
                       “I had the pleasure of doing my medical studies at
                       Dr.Jose.G.Tamayo Medical University. The professors are
@@ -356,17 +397,16 @@
               </div>
             </div>
 
-            <div class="row" style="display: flex; justify-content: center">
-              <div class="col-lg-7">
-                <div class="testamonialContent">
-                  <div class="testamonialImg">
-                    <div class="graduatedImg">
-                      <img src="/assets/images/home/graduated.png" alt="" />
-                    </div>
-                    <h4>Sagar</h4>
+              <div class="testamonialBox2">
+              <div class="testamonialContentBox">
+                <div class="testamonialImg">
+                  <div class="graduatedImg">
+                    <img src="/assets/images/home/graduated.png" alt="" />
                   </div>
-
-                  <div class="testamonialPara">
+                  <h4>Sagar</h4>
+                </div>
+                <div class="testamonialContent">
+                  <div>
                     <p>
                       “Dr.Jose.G.Tamayo Medical University is my dream
                       University. I have been accepted and am so excited to
@@ -378,89 +418,97 @@
                 </div>
               </div>
             </div> -->
+          </div>
         </div>
       </div>
     </section>
 
     <section class="accreditation">
-      <div class="container accreditationBox">
-        <div class="accreditationHead">
-          <h3>Accreditation</h3>
-          <img src="/assets/images/home/line yellow.png" alt="" />
-        </div>
-        <div class="accreditImg">
-          <img src="/assets/images/home/nmc.jpg" alt="" />
-          <img src="/assets/images/home/ecf.jpg" alt="" />
-          <img src="/assets/images/home/ched.jpg" alt="" />
-          <img src="/assets/images/home/wdoms.jpg" alt="" />
+      <div class="container">
+        <div class="accreditationBox">
+          <div class="accreditationHead">
+            <h3>Accreditation</h3>
+            <img src="/assets/images/home/line yellow.png" alt="" />
+          </div>
+          <div class="accreditImg">
+            <img src="/assets/images/home/nmc.webp" alt="" />
+            <img src="/assets/images/home/ecf.jpg" alt="" />
+            <img src="/assets/images/home/ched.jpg" alt="" />
+            <img src="/assets/images/home/wdoms.jpg" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
     <section class="adavnce">
-      <div class="container adavnceBox">
-        <div class="advanceContent">
-          <h3>Advanced Medical Facilities</h3>
-          <p>
-            We At Dr.Jose.G.Tamayo Medical University Provide The Best
-            Educational Experience For Our Students
-          </p>
+      <div class="container">
+        <div class="adavnceBox">
+          <div class="advanceContent">
+            <h3>Advanced Medical Facilities</h3>
+            <p>
+              We At Dr.Jose.G.Tamayo Medical University Provide The Best
+              Educational Experience For Our Students
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="facilities">
-      <div class="container facilitiesBox">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="facilitiesHead">
-              <h3>
-                UPH-Dr. Jose G. Tamayo Medical University Facilities And
-                Infrastructure
-              </h3>
-              <img src="/assets/images/home/Line 9.png" />
+      <div class="container">
+        <div class="facilitiesBox">
+          <div class="row">
+            <div class="col-lg-7 facilitiesCol1">
+              <div class="facilitiesHead">
+                <h3>
+                  UPH-Dr. Jose G. Tamayo Medical University Facilities And
+                  Infrastructure
+                </h3>
+                <img src="/assets/images/home/Line 9.png" />
+              </div>
+              <div class="facilitiesPointBox">
+                <div class="facilitiesPoints">
+                  <span class="numberPoint">01</span>
+                  <p>
+                    As one of the top rank medical university in Philippines, we
+                    continuously strive to provide the best educational
+                    experience for our students. Our Medical University is
+                    equipped with modern laboratories, classrooms and lecture
+                    halls.
+                  </p>
+                </div>
+                <div class="facilitiesPoints">
+                  <span class="numberPoint">02</span>
+                  <p>
+                    Our laboratories are equipped with the latest medical
+                    diagnostic equipment and technology. Our in-house library is
+                    stocked with the latest medical textbooks and journals.
+                  </p>
+                </div>
+                <div class="facilitiesPoints">
+                  <span class="numberPoint">03</span>
+                  <p>
+                    At our college, we have a variety of classrooms that are
+                    provided with advanced teaching methods. Our classrooms are
+                    spacious and well-lit, providing an excellent learning
+                    atmosphere.
+                  </p>
+                </div>
+                <div class="facilitiesPoints">
+                  <span class="numberPoint">04</span>
+                  <p>
+                    At Tamayo, we value diversity and strive to foster an
+                    inclusive campus environment. Cultural events are hosted,
+                    welcoming environments created, as well as open discussions
+                    on diversity issues such as inclusion.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="facilitiesPointBox">
-              <div class="facilitiesPoints">
-                <span class="numberPoint">01</span>
-                <p>
-                  As one of the top rank medical university in Philippines, we
-                  continuously strive to provide the best educational experience
-                  for our students. Our Medical University is equipped with
-                  modern laboratories, classrooms and lecture halls.
-                </p>
+            <div class="col-lg-5 facilitiesBox2">
+              <div class="facilitiesImg">
+                <img src="/assets/images/home/facilitiesImg 1.webp" alt="" />
               </div>
-              <div class="facilitiesPoints">
-                <span class="numberPoint">02</span>
-                <p>
-                  Our laboratories are equipped with the latest medical
-                  diagnostic equipment and technology. Our in-house library is
-                  stocked with the latest medical textbooks and journals.
-                </p>
-              </div>
-              <div class="facilitiesPoints">
-                <span class="numberPoint">03</span>
-                <p>
-                  At our college, we have a variety of classrooms that are
-                  provided with advanced teaching methods. Our classrooms are
-                  spacious and well-lit, providing an excellent learning
-                  atmosphere.
-                </p>
-              </div>
-              <div class="facilitiesPoints">
-                <span class="numberPoint">04</span>
-                <p>
-                  At Tamayo, we value diversity and strive to foster an
-                  inclusive campus environment. Cultural events are hosted,
-                  welcoming environments created, as well as open discussions on
-                  diversity issues such as inclusion.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5 facilitiesBox2">
-            <div class="facilitiesImg">
-              <img src="/assets/images/home/Group 11.png" alt="" />
             </div>
           </div>
         </div>
@@ -468,79 +516,83 @@
     </section>
 
     <section class="associates">
-      <div class="container associatesBox">
-        <div class="associatesHead">
-          <h3>Authorized Associates</h3>
-          <img src="/assets/images/home/line yellow.png" alt="" />
-        </div>
-        <div class="associatesImg">
-          <img src="/assets/images/home/global 1.jpg" alt="" />
-          <img src="/assets/images/home/med world.jpg" alt="" />
-          <img src="/assets/images/home/lotus.jpg" alt="" />
-          <img src="/assets/images/home/neolife.jpg" alt="" />
+      <div class="container">
+        <div class="associatesBox">
+          <div class="associatesHead">
+            <h3>Authorized Associates</h3>
+            <img src="/assets/images/home/line yellow.png" alt="" />
+          </div>
+          <div class="associatesImg">
+            <img src="/assets/images/home/global 01.webp" alt="" />
+            <img src="/assets/images/home/med world.webp" alt="" />
+            <img src="/assets/images/home/lotus 1.webp" alt="" />
+            <img src="/assets/images/home/neolife 1.webp" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
     <section class="campusFacilities">
-      <div class="container campusFacilitiesBox">
-        <div class="campusFacilitiesHead">
-          <h3>
-            UPH-Dr. Jose G. Tamayo Medical University, The Best Medical
-            University In Philippines Provide The Best Educational Experience
-            For Our Students With The Top-Notch Campus Facilities
-          </h3>
-          <img src="/assets/images/home/Line 9.png" alt="" />
-        </div>
-
-        <div class="facilities-carousel">
-          <div class="facilitiesCol">
-            <div class="facilitieBox3">
-              <div class="campusFacilitiesImg">
-                <img src="/assets/images/home/anatomy 1.png" alt="" />
-              </div>
-              <h4>Anatomy</h4>
-              <p>
-                UPH-Dr. Jose G. Tamayo Medical University(DJGTMU) provides
-                hands-on learning experience to study human anatomy. Our anatomy
-                system facility is equipped with modern technology and tools so
-                that students can study and explore human body in detail
-              </p>
-            </div>
+      <div class="campusBox">
+        <div class="campusFacilitiesBox">
+          <div class="campusFacilitiesHead">
+            <h3>
+              UPH-Dr. Jose G. Tamayo Medical University, The Best Medical
+              University In Philippines Provide The Best Educational Experience
+              For Our Students With The Top-Notch Campus Facilities
+            </h3>
+            <img src="/assets/images/home/Line 9.png" alt="" />
           </div>
 
-          <div class="facilitiesCol">
-            <div class="facilitieBox3">
-              <div class="campusFacilitiesImg">
-                <img src="/assets/images/home/cadaver.png" alt="" />
+          <div class="facilities-carousel">
+            <div class="facilitiesCol">
+              <div class="facilitieBox3">
+                <div class="campusFacilitiesImg">
+                  <img src="/assets/images/home/anatomy 1.png" alt="" />
+                </div>
+                <h4>Anatomy</h4>
+                <p>
+                  UPH-Dr. Jose G. Tamayo Medical University(DJGTMU) provides
+                  hands-on learning experience to study human anatomy. Our
+                  anatomy system facility is equipped with modern technology and
+                  tools so that students can study and explore human body in
+                  detail
+                </p>
               </div>
-              <h4>Cadaver</h4>
-              <p>
-                Our cadaver system facility helps students to study anatomy,
-                identify disease sites, determine death causes, and repair
-                defects in living people
-              </p>
             </div>
-          </div>
 
-          <div class="facilitiesCol">
-            <div class="facilitieBox3">
-              <div class="campusFacilitiesImg">
-                <img src="/assets/images/home/library 1.png" alt="" />
+            <div class="facilitiesCol">
+              <div class="facilitieBox3">
+                <div class="campusFacilitiesImg">
+                  <img src="/assets/images/home/cadaver.png" alt="" />
+                </div>
+                <h4>Cadaver</h4>
+                <p>
+                  Our cadaver system facility helps students to study anatomy,
+                  identify disease sites, determine death causes, and repair
+                  defects in living people
+                </p>
               </div>
-              <h4>Library</h4>
-              <p>
-                Medical Library in Dr. Jose G. Tamayo Medical University is a
-                state-of-the-art facility that provides students and faculty
-                members access to the latest medical research and literature.
-                With extensive collection of books, journals, and online
-                resources to help students stay abreast of the latest medical
-                information
-              </p>
             </div>
-          </div>
 
-          <!-- <div class="facilitiesCol">
+            <div class="facilitiesCol">
+              <div class="facilitieBox3">
+                <div class="campusFacilitiesImg">
+                  <img src="/assets/images/home/library 1.png" alt="" />
+                </div>
+                <h4>Library</h4>
+                <p>
+                  Medical Library in Dr. Jose G. Tamayo Medical University is a
+                  state-of-the-art facility that provides students and faculty
+                  members access to the latest medical research and literature.
+                  With extensive collection of books, journals, and online
+                  resources to help students stay abreast of the latest medical
+                  information
+                </p>
+              </div>
+            </div>
+
+            <!-- <div class="facilitiesCol">
             <div class="facilitieBox3">
               <div class="campusFacilitiesImg">
                 <img src="/assets/images/home/Simulation Lab 1.png.png" alt="" />
@@ -596,125 +648,130 @@
               </p>
             </div>
           </div> -->
+          </div>
         </div>
       </div>
     </section>
 
     <section class="faq">
-      <div class="container faqBox">
-        <div class="faqHead">
-          <h3>FAQ</h3>
-          <img src="/assets/images/home/line yellow.png" />
-        </div>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item mb-20">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
+      <div class="container">
+        <div class="faqBox">
+          <div class="faqHead">
+            <h3>FAQ</h3>
+            <img src="/assets/images/home/line yellow.png" />
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item mb-15">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
               >
-                Accordion Item #1
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingOne"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the first item's accordion body.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item mb-20">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
+            <div class="accordion-item mb-15">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
               >
-                Accordion Item #2
-              </button>
-            </h2>
-            <div
-              id="flush-collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item's accordion body. Let's imagine this being
+                  filled with some actual content.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item mb-20">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
+            <div class="accordion-item mb-15">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
               >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item mb-20">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour"
-                aria-expanded="false"
-                aria-controls="flush-collapseFour"
+            <div class="accordion-item mb-15">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headinFour"
+                data-bs-parent="#accordionFlushExample"
               >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="flush-collapseFour"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headinFour"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
               </div>
             </div>
           </div>
@@ -723,30 +780,29 @@
     </section>
 
     <section class="cta">
-      <div class="container ctaBox">
-        <div class="ctaContent">
-          <p>Looking for the Best Medical University?</p>
-          <!-- <div class="ctaImg">
-            <img src="/assets/images/home/heart-graph.webp" />
-          </div> -->
-          <div class="ctaBtn">
-            <a href="#">
-              <button type="button" class="ContactBtn">
-                <span>
-                  Contact Us
-                  <i
-                    class="fa-solid fa-arrow-right"
-                    style="color: #000000; padding-left: 15px"
-                  ></i
-                ></span>
-              </button>
-            </a>
+      <div class="container">
+        <div class="ctaBox">
+          <div class="ctaContent">
+            <p>Looking for the Best Medical University?</p>
+            <div class="ctaBtn">
+              <a href="#">
+                <button type="button" class="ContactBtn">
+                  <span>
+                    Contact Us
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      style="color: #000000; padding-left: 15px"
+                    ></i
+                  ></span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer-area ptb-70">
+    <!-- <footer class="footer-area ptb-70">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 footerSide1">
@@ -831,8 +887,8 @@
           </div>
         </div>
       </div>
-    </footer>
-
+    </footer> -->
+    <!-- 
     <div class="copy-right-area">
       <div class="container">
         <p>
@@ -841,12 +897,45 @@
           All Copyrights Reversed by UPH-Dr. Jose G. Tamayo Medical University
         </p>
       </div>
-    </div>
+    </div> -->
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"
+      integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+      integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
 
     <script src="/assets/js/jquery.js"></script>
