@@ -439,7 +439,9 @@
   margin-top: 10px;
 }
 .facilities-carousel {
-  display: flex !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 .facilitiesCol {
   display: flex;

@@ -234,6 +234,107 @@
     text-align: left;
     margin: 15px 0;
   }
+  .homeContent2 {
+    order: 4;
+  }
+  .homeContent1 p,
+  .homeContent2 p {
+    font-size: 16px;
+  }
+  .facilities-carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+  .about2 {
+    padding: 30px 0;
+  }
+  .aboutBoxImg2 {
+    margin-bottom: 20px;
+  }
+  .aboutContent4 {
+    text-align: justify;
+    padding-left: 0px;
+  }
+  .aboutContent4 p {
+    font-size: 16px;
+  }
+  .studySlide {
+    padding: 35px 25px;
+  }
+  .studySlideHead h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .ourfacultiesContentBox {
+    padding: 30px 0;
+  }
+  .ourfacultiesHead {
+    margin-bottom: 15px;
+  }
+  .ourfacultiesHead h3 {
+    font-size: 25px;
+  }
+  .ourfacultiesContent p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .aboutPhilippines {
+    padding: 30px 0;
+  }
+  .philippinesHead1 h3 {
+    color: #fff;
+    font-size: 25px;
+  }
+  .philippinesHead1 {
+    margin-bottom: 10px;
+  }
+  .philippinesPara1 p {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .philippinesImg2 {
+    order: 2;
+    margin-top: 20px;
+  }
+  .philippinesPara2 p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .majorCitiesContainer {
+    padding: 30px 0;
+  }
+  .majorCitiesHead h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .majorCitiesHead p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .majorCitiesContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .citiesUnderPara {
+    font-size: 16px;
+  }
+  .studyPhilippines {
+    padding: 30px 0;
+  }
+  .studyPhilippinesCol {
+    order: 2;
+  }
+  .studyPhilippinesImg {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .studyPhilippinesContent p {
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .homeContent3 p {
@@ -252,6 +353,67 @@
   }
   .campusBox {
     padding: 0 10px;
+  }
+  .facilities-carousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+  .studySlide {
+    padding: 30px 20px;
+  }
+  .studySlide-carousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px;
+  }
+  .aboutPhilippines {
+    padding: 20px 0;
+  }
+  .philippinesHead1 h3 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .philippinesHead1 {
+    margin-bottom: 8px;
+  }
+  .philippinesPara1 p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .philippinesImg2 {
+    order: 2;
+    margin-top: 15px;
+  }
+  .philippinesPara2 p {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .majorCitiesContainer {
+    padding: 20px 0;
+  }
+  .majorCitiesHead h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .majorCitiesHead p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .majorCitiesContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .citiesUnderPara {
+    font-size: 14px;
+  }
+  .majorCitiesImg {
+    margin-bottom: 10px;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -335,6 +497,75 @@
   .facilitiesCol1 {
     order: 2;
     margin-top: 20px;
+  }
+  .homeContent1,
+  .homeContent2 {
+    padding: 20px 30px;
+  }
+  .homeContent1 h3 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .homeContent1 p,
+  .homeContent2 p {
+    font-size: 14px;
+  }
+  .aboutHead {
+    margin-bottom: 8px;
+  }
+  .aboutHead h3 {
+    font-size: 22px;
+  }
+  .aboutContent1 p,
+  .aboutContent2 p,
+  .aboutContent3 p {
+    font-size: 14px;
+  }
+  .aboutBoxImg2 {
+    margin-bottom: 15px;
+  }
+  .aboutContent4 p {
+    font-size: 14px;
+  }
+  .studySlide {
+    padding: 25px 15px;
+  }
+  .studySlideHead h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .ourfacultiesContentBox {
+    padding: 22px 0;
+  }
+  .ourfacultiesHead {
+    margin-bottom: 12px;
+  }
+  .ourfacultiesHead h3 {
+    font-size: 22px;
+  }
+  .ourfacultiesContent p {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .studyPhilippines {
+    padding: 20px 0;
+  }
+  .studyPhilippinesCol {
+    order: 2;
+  }
+  .studyPhilippinesHead {
+    margin-bottom: 8px;
+  }
+  .studyPhilippinesHead h3 {
+    font-size: 22px;
+  }
+  .studyPhilippinesImg {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .studyPhilippinesContent p {
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 330px) {
