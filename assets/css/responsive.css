@@ -91,6 +91,14 @@
     z-index: 90;
     display: none; /* initially hidden */
   }
+  h3 {
+    font-size: 25px;
+  }
+  p,
+  li,
+  span {
+    font-size: 16px;
+  }
   .show-overlay {
     display: block;
   }
@@ -335,8 +343,87 @@
   .studyPhilippinesContent p {
     font-size: 16px;
   }
+  .studyPhilippinesHead {
+    margin-bottom: 12px;
+  }
+  .studyPhilippinesHead h3 {
+    font-size: 25px;
+  }
+  .advantages1Head {
+    margin-bottom: 15px;
+  }
+  .advantages1Container {
+    padding: 30px 0;
+  }
+  .advantagePointBox2,
+  .advantagePointBox1 {
+    padding-left: 0px;
+  }
+  .advantage2 {
+    padding: 30px 0;
+  }
+  .advantage2Head {
+    margin-bottom: 18px;
+  }
+  .PointBox1 {
+    margin-bottom: 14px;
+  }
+  .studentIndiaContainer {
+    padding: 30px 0;
+  }
+  .studentIndiaHead,
+  .benefitsPhilippines1Hea {
+    margin-bottom: 10px;
+  }
+  .studentIndiaImg {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .studentIndiaCol {
+    order: 2;
+    margin-top: 25px;
+  }
+  .highFMCE {
+    margin-top: 25px;
+  }
+  .ponitsCol1 {
+    margin-top: 25px;
+    order: 2;
+  }
+  .highFMCEHead,
+  .languageProblemHead,
+  .mdMedicineHead,
+  .clinicaltrainingHead {
+    margin-bottom: 12px;
+  }
+  .clinicaltrainingImg {
+    justify-content: flex-start;
+  }
+  .medicine {
+    padding: 30px 0;
+  }
+  .pgUSAimg {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+  .pgUSAContainer {
+    padding: 30px 0;
+  }
+  .benefitsPhilippines1,
+  .benefitsPhilippines2Container {
+    padding: 30px 0;
+  }
+  .benefitsPhilippines2-Co {
+    margin-top: 25px;
+  }
 }
 @media only screen and (max-width: 767px) {
+  p,
+  li,
+  span {
+    font-size: 16px !important;
+  }
   .homeContent3 p {
     padding: 20px 0 0 0;
     font-size: 16px;
@@ -415,11 +502,108 @@
   .majorCitiesImg {
     margin-bottom: 10px;
   }
+  .qualificationsBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .qualificationsContent {
+    padding: 10px;
+  }
+  .qualificationsContent2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 18px;
+  }
+  .qualificationsPara1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 85px;
+    align-items: center;
+  }
+  .qualificationsPara1 p {
+    text-align: center;
+  }
+  .advantage2 {
+    padding: 20px 15px;
+  }
+  .advantage2Head {
+    margin-bottom: 14px;
+  }
+  .PointBox1 {
+    margin-bottom: 10px;
+  }
+  .advantage2Head img,
+  .majorCitiesHead img,
+  .studyPhilippinesHead img,
+  .advantages1Head img,
+  .advantage2Head img,
+  .pgUSAhead img {
+    width: 120px;
+  }
+  .majorCitiesHead,
+  .qualificationsHead,
+  .advantage2Head {
+    align-items: flex-start;
+  }
+  .advantages1Head h3 {
+    text-align: center;
+  }
+  .studentIndiaContainer,
+  .medicine {
+    padding: 30px 10px;
+  }
+  .highFMCE {
+    margin-top: 20px;
+  }
+  .ponitsCol1,
+  .benefitsPhilippines1-Co {
+    margin-top: 20px;
+    order: 2;
+  }
+  .pgUSAimg {
+    margin-bottom: 20px;
+  }
+  .pgUSAContainer {
+    padding: 30px 10px;
+  }
+  .pgUSApoints li,
+  .benefitsPhilippines1Ponits li {
+    padding-bottom: 8px;
+  }
+  .pgUSAhead {
+    margin-bottom: 15px;
+  }
+  .benefitsPhilippines1 {
+    padding: 30px 10px;
+  }
+  .benefitsPhilippines1Head h3,
+  .pgUSAhead h3 {
+    line-height: 33px;
+  }
+  .benefitsPhilippines2Container {
+    padding: 20px 10px;
+  }
+  .philippinesContent1 {
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 560px) {
+  h3 {
+    font-size: 20px !important;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p,
+  li,
+  span {
+    font-size: 16px !important;
+  }
   .homeContent3 p {
     padding: 10px 0 0 0;
-    font-size: 14px;
   }
   .homeBox4 {
     padding: 20px 0;
@@ -478,19 +662,17 @@
     font-size: 20px;
   }
   .advanceContent p {
-    font-size: 14px;
     text-align: center;
   }
   .facilitiesHead h3 {
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 30px;
   }
   .facilitiesPoints p {
-    font-size: 14px;
     padding-left: 38px;
   }
   .facilitiesPoints span {
-    font-size: 18px;
+    font-size: 18px !important;
     top: 1px;
     left: 8px;
   }
@@ -503,36 +685,19 @@
     padding: 20px 30px;
   }
   .homeContent1 h3 {
-    font-size: 22px;
     text-align: center;
     line-height: 30px;
-  }
-  .homeContent1 p,
-  .homeContent2 p {
-    font-size: 14px;
   }
   .aboutHead {
     margin-bottom: 8px;
   }
-  .aboutHead h3 {
-    font-size: 22px;
-  }
-  .aboutContent1 p,
-  .aboutContent2 p,
-  .aboutContent3 p {
-    font-size: 14px;
-  }
   .aboutBoxImg2 {
     margin-bottom: 15px;
-  }
-  .aboutContent4 p {
-    font-size: 14px;
   }
   .studySlide {
     padding: 25px 15px;
   }
   .studySlideHead h3 {
-    font-size: 22px;
     text-align: center;
   }
   .ourfacultiesContentBox {
@@ -541,12 +706,8 @@
   .ourfacultiesHead {
     margin-bottom: 12px;
   }
-  .ourfacultiesHead h3 {
-    font-size: 22px;
-  }
   .ourfacultiesContent p {
     margin-bottom: 12px;
-    font-size: 14px;
   }
   .studyPhilippines {
     padding: 20px 0;
@@ -557,15 +718,24 @@
   .studyPhilippinesHead {
     margin-bottom: 8px;
   }
-  .studyPhilippinesHead h3 {
-    font-size: 22px;
-  }
   .studyPhilippinesImg {
     justify-content: flex-start;
     margin-bottom: 20px;
   }
-  .studyPhilippinesContent p {
-    font-size: 14px;
+  .advantages1Container {
+    padding: 20px 0;
+  }
+  .advantages1Para h4 {
+    margin-bottom: 12px;
+  }
+  .qualifications {
+    padding: 20px 0;
+  }
+  .qualificationsHead img {
+    margin-bottom: 10px;
+  }
+  .qualificationsContent h4 {
+    margin-bottom: 12px;
   }
 }
 @media only screen and (max-width: 330px) {
