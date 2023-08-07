@@ -41,6 +41,10 @@
   text-align: left;
   font-size: 18px;
 }
+.homeAboutImg1,
+.homeAboutImg2 {
+  padding: 0;
+}
 .homeAboutImg1 img,
 .homeAboutImg2 img {
   width: 100%;
@@ -93,6 +97,13 @@
 .homeContent3 p {
   text-align: justify;
   padding-left: 20px;
+}
+.homeContent3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
 }
 .homeBox4 {
   background-image: url(../images/home/library1\ 1.png);
@@ -248,8 +259,7 @@
   position: relative;
   background-color: #f8c629;
   padding: 25px;
-  height: 23em;
-  width: 65%;
+  margin: 0 30px;
   overflow: hidden;
 }
 .testamonialContentBox::before {
@@ -295,13 +305,43 @@
 .testamonialImg h4 {
   font-size: 20px;
 }
+.testimonial-carousel .owl-nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.testimonial-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -30px;
+  font-size: 25px;
+  background: black !important;
+  padding: 2px 12px !important;
+  border-radius: 999px;
+  color: #fff !important;
+}
+
+.testimonial-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -30px;
+  font-size: 25px;
+  background: black !important;
+  padding: 2px 12px !important;
+  border-radius: 999px;
+  color: #fff !important;
+}
+
 .accreditation,
 .associates {
   background: linear-gradient(to bottom, #004faf, #00234e);
 }
 .accreditationBox,
 .associatesBox {
-  padding: 25px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .accreditationHead,
 .associatesHead {
@@ -323,7 +363,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .adavnce {
   overflow: hidden;
@@ -401,7 +441,6 @@
   text-align: justify;
 }
 .campusFacilities {
-  overflow: hidden;
   position: relative;
 }
 .campusFacilities::before {
@@ -415,6 +454,7 @@
   height: 100%;
   position: absolute;
   z-index: -2;
+  padding: 50px 0;
 }
 .campusFacilitiesBox {
   padding: 50px 0;
@@ -445,11 +485,21 @@
 }
 .facilitiesCol {
   display: flex;
-  width: 100%;
   background: #fff;
   margin: 15px;
+  padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.campusFacilitiescontent {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.facilitiescontent {
+  text-align: center;
 }
 .facilitieBox3 {
   display: flex;
