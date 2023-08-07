@@ -1,0 +1,564 @@
+.PhilippinesPageHeader {
+  overflow: hidden;
+  position: relative;
+}
+.PhilippinesPageHeader::before {
+  content: "";
+  background-image: url(../images/philippines/Philippines\ bread.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.PhilippinesPageHeader::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.623);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.PhilippinesBreadcrumb {
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PhilippinesBreadcrumb h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.pageBreadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageBreadcrumb li {
+  list-style: none;
+  color: #fff;
+  margin-left: 8px;
+}
+.pageBreadcrumb li a {
+  color: #fff;
+}
+.aboutPhilippines {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #004faf, #00234e);
+}
+.philippinesContent1 {
+  margin-bottom: 30px;
+}
+.philippinesHead1 {
+  margin-bottom: 20px;
+}
+.philippinesHead1 h3 {
+  color: #fff;
+}
+.philippinesHead1 img {
+  width: 120px;
+  border-radius: 20px;
+}
+.philippinesPara1 p {
+  color: #fff;
+  text-align: justify;
+  font-weight: 500;
+}
+.philippinesPara2 p {
+  color: #fff;
+  text-align: justify;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.majorCities {
+  overflow: hidden;
+  position: relative;
+}
+.majorCities::before {
+  content: "";
+  background-image: url(../images/home/pattern-14.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.majorCitiesContainer {
+  padding: 50px 0;
+}
+.majorCitiesHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.majorCitiesHead p {
+  margin-top: 10px;
+}
+.majorCitiesContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.majorCitiesImg {
+  margin-bottom: 30px;
+}
+.majorCitiesImg img {
+  border-radius: 20px;
+  width: 100%;
+}
+.majorCitiesImg .Cities {
+  background-color: #ffc002;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.majorCitiesImg .Cities p {
+  text-align: center;
+}
+.citiesUnderPara {
+  text-align: center;
+}
+.studyPhilippines {
+  padding: 50px 0;
+  background-color: #ffc002;
+}
+.studyPhilippinesHead {
+  margin-bottom: 20px;
+}
+.studyPhilippinesContent p {
+  text-align: justify;
+  font-weight: 500;
+}
+.studyPhilippinesImg {
+  display: flex;
+  justify-content: center;
+}
+.advantages1 {
+  overflow: hidden;
+  position: relative;
+}
+.advantages1::before {
+  content: "";
+  background-image: url(../images/philippines/Philippines\ bread.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.advantages1::after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.616);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.advantages1Container {
+  padding: 50px 0;
+}
+.advantages1Head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.advantages1Head h3 {
+  margin-bottom: 10px;
+}
+.advantages1Para h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.advantages1Para p {
+  text-align: center;
+}
+.qualifications {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #004faf, #00234e);
+}
+.qualificationsHead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.qualificationsHead h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+.qualificationsHead img {
+  width: 120px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.qualificationsHead p {
+  color: #fff;
+  text-align: center;
+}
+.qualificationsBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.qualificationsContent {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #ffc002;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+.qualificationsImg img,
+.qualificationsImg2 img {
+  width: 48px;
+}
+.qualificationsImg {
+  background: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.qualificationsContent h4 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.qualificationsContent p {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.qualificationsContent2 {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #ffc002;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.qualificationsPara1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 130px;
+}
+.qualificationsImg2 {
+  background: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: absolute;
+}
+.qualificationsPara1 h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.qualificationsPara1 p {
+  color: #fff;
+  text-align: justify;
+  font-weight: 500;
+}
+.advantage2 {
+  padding: 50px 0;
+  background-color: #ffc002;
+}
+.advantage2Head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.advantage2Head h3 {
+  margin-bottom: 8px;
+}
+.PointBox1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  position: relative;
+}
+.pointNum {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  background-color: #004faf;
+  text-align: center;
+  left: 0;
+  top: 4px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.pointNum span {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.PointBox1 {
+  padding-left: 35px;
+}
+.PointBox1 p {
+  text-align: justify;
+}
+.advantagePointBox2 {
+  padding-left: 20px;
+}
+.studentIndia {
+  position: relative;
+  overflow: hidden;
+}
+.studentIndia::before {
+  content: "";
+  background-image: url(../images/home/pattern-14.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.studentIndiaContainer {
+  padding: 50px 0;
+}
+.studentIndiaHead {
+  margin-bottom: 20px;
+}
+.studentIndiaContent p {
+  text-align: justify;
+}
+.studentIndiaImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.medicine {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #004faf, #00234e);
+}
+.highFMCEHead,
+.languageProblemHead,
+.mdMedicineHead,
+.clinicaltrainingHead {
+  margin-bottom: 20px;
+}
+.highFMCEHead h4,
+.languageProblemHead h4,
+.mdMedicineHead h4,
+.clinicaltrainingHead h4 {
+  color: #fff;
+}
+.highFMCEHead img,
+.languageProblemHead img,
+.mdMedicineHead img,
+.clinicaltrainingHead img {
+  width: 120px;
+  border-radius: 20px;
+}
+.highFMCE,
+.mdMedicine,
+.languageProblem,
+.clinicaltraining {
+  margin-bottom: 20px;
+}
+.highFMCEPoints li,
+.languageProblemPoint li,
+.mdMedicinePoint li,
+.clinicaltrainingPoint li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: justify;
+}
+.highFMCEPoints li::before,
+.languageProblemPoint li::before,
+.mdMedicinePoint li::before,
+.clinicaltrainingPoint li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/home/pointer2.png);
+  background-size: contain;
+}
+.clinicaltrainingImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.ponitsCol1 {
+  margin-top: 20px;
+}
+.pgUSA {
+  position: relative;
+  overflow: hidden;
+}
+.pgUSA::before {
+  content: "";
+  background-image: url(../images/home/pattern-14.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.pgUSAContainer {
+  padding: 50px 0;
+}
+.pgUSAimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pgUSAhead h3 {
+  line-height: 40px;
+  overflow: hidden;
+}
+.pgUSAhead img {
+  width: 150px;
+  border-radius: 20px;
+}
+.pgUSAhead {
+  margin-bottom: 20px;
+}
+.pgUSApoints li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: justify;
+}
+.pgUSApoints li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/home/pointer.png);
+  background-size: contain;
+}
+.benefitsPhilippines1 {
+  padding: 50px 0;
+  background-color: #ffc002;
+}
+.benefitsPhilippines1Head h3 {
+  line-height: 40px;
+  overflow: hidden;
+}
+.benefitsPhilippines1Head img {
+  width: 150px;
+  border-radius: 20px;
+}
+.benefitsPhilippines1Head {
+  margin-bottom: 20px;
+}
+.benefitsPhilippines1Ponits li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: justify;
+}
+.benefitsPhilippines1Ponits li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/philippines/pointer\ 3.png);
+  background-size: contain;
+}
+.benefitsPhilippines1img-Co {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefitsPhilippines2 {
+  position: relative;
+  overflow: hidden;
+}
+.benefitsPhilippines2::before {
+  content: "";
+  background-image: url(../images/home/pattern-14.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.benefitsPhilippines2Container {
+  padding: 50px 0;
+}
+.benefitsPhilippines2img-Co {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefitsPhilippines2Ponits li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-align: justify;
+}
+.benefitsPhilippines2Ponits li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/home/pointer.png);
+  background-size: contain;
+}

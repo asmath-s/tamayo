@@ -41,6 +41,32 @@
   text-align: left;
   font-size: 18px;
 }
+.homeAboutImg1 img,
+.homeAboutImg2 img {
+  width: 100%;
+}
+.homeContent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.homeContent1 h3 {
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.homeContent1 p,
+.homeContent2 p {
+  text-align: justify;
+}
+.homeContent2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
 .homeBox3 {
   overflow: hidden;
   position: relative;
