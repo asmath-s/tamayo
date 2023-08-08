@@ -88,7 +88,8 @@
   z-index: -2;
 }
 .homeAboutBox1 {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .homeVideo1 {
   display: flex;
@@ -112,7 +113,8 @@
   background-position: center;
   width: 100%;
   height: 100%;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-bottom: #f8c629 solid 8px;
 }
 .homeContent4 p {
@@ -122,7 +124,8 @@
 }
 .middelBanner {
   background: linear-gradient(to bottom, #004faf, #00234e);
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .middelImg {
   display: flex;
@@ -146,7 +149,8 @@
   z-index: -2;
 }
 .studLifeBox1 {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .lifeHead {
   margin-bottom: 20px;
@@ -189,7 +193,8 @@
   background: linear-gradient(to bottom, #004faf, #00234e);
 }
 .studLifeBox2 {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .lifePoints2 {
   display: flex;
@@ -234,7 +239,8 @@
   z-index: -2;
 }
 .testamonialContainer {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .testamonialHead {
   display: flex;
@@ -382,7 +388,8 @@
   z-index: -2;
 }
 .adavnceBox {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .advanceContent {
   display: flex;
@@ -402,7 +409,8 @@
   background-color: #f8c629;
 }
 .facilitiesBox {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .facilitiesBox2 {
   display: flex;
@@ -457,7 +465,8 @@
   padding: 50px 0;
 }
 .campusFacilitiesBox {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .campusBox {
   padding: 0 50px;
@@ -491,8 +500,8 @@
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  height: 34em;
 }
 .campusFacilitiescontent {
   padding-top: 30px;
@@ -515,6 +524,7 @@
   height: 80px;
   align-items: center;
   display: flex;
+  padding: 15px;
   justify-content: center;
   margin-bottom: 15px;
 }
@@ -529,7 +539,8 @@
   background: linear-gradient(to bottom, #004faf, #00234e);
 }
 .faqBox {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .faqHead {
   display: flex;

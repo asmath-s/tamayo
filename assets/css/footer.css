@@ -122,3 +122,40 @@
 .copy-right-area p a:hover {
   color: var(--main-color);
 }
+
+/* footer responsive */
+@media only screen and (max-width: 991px) {
+  .footer-area {
+    padding-top: 40px;
+    padding-bottom: 55px;
+  }
+  .footerContactform {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-area {
+    padding-top: 10px !important;
+    padding-bottom: 25px !important;
+  }
+  .footerSide1Box {
+    padding: 30px;
+  }
+  .footerLogo img {
+    margin-bottom: 25px;
+    width: 250px;
+  }
+  .footerSide1Box p {
+    margin-bottom: 18px;
+  }
+  .footerSide2 {
+    align-items: flex-start;
+  }
+  .offialInfo {
+    padding-left: 30px;
+  }
+  .footerContactform,
+  .Contactform1 {
+    padding: 30px;
+  }
+}
