@@ -266,6 +266,7 @@
   background-color: #f8c629;
   padding: 25px;
   margin: 0 30px;
+  height: 16em;
   overflow: hidden;
 }
 .testamonialContentBox::before {
