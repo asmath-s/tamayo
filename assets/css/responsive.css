@@ -226,7 +226,7 @@
     font-size: 16px;
   }
   .aboutBox1 {
-    padding: 30px 0;
+    padding: 30px 10px;
   }
   .aboutHead h3 {
     font-size: 25px;
@@ -258,7 +258,7 @@
     margin: 20px;
   }
   .about2 {
-    padding: 30px 0;
+    padding: 30px 10px;
   }
   .aboutBoxImg2 {
     margin-bottom: 20px;
@@ -451,6 +451,9 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 20px;
+  }
+  .studySlideHead img {
+    width: 120px;
   }
   .studySlide {
     padding: 30px 20px;
@@ -716,7 +719,7 @@
     text-align: center;
   }
   .ourfacultiesContentBox {
-    padding: 22px 0;
+    padding: 22px 10px;
   }
   .ourfacultiesHead {
     margin-bottom: 12px;
