@@ -670,6 +670,16 @@
   .associatesHead h3 {
     font-size: 20px;
   }
+  .associatesImg1,
+  .accreditImg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .associatesImg1 img,
+  .accreditImg1 img {
+    width: 175px !important;
+  }
   .advanceContent h3 {
     font-size: 20px;
   }
@@ -677,7 +687,7 @@
     text-align: center;
   }
   .facilitiesCol {
-    height: 20em;
+    height: 24em;
   }
   .facilitiesBox {
     padding: 20px 10px;
@@ -760,5 +770,8 @@
   .testamonialContentBox {
     height: 40em;
     width: 100%;
+  }
+  .facilitiesCol {
+    height: 30em;
   }
 }
