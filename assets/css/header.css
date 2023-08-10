@@ -33,7 +33,7 @@
   gap: 10px;
 }
 .topbar {
-  background-color: #f8c629;
+  background: linear-gradient(45deg, #0512a4 28%, #f8c629 0%);
   padding: 6px 0;
 }
 
@@ -44,7 +44,9 @@
   gap: 15px;
   color: #fff;
 }
-
+.social-media h6 {
+  color: #fff;
+}
 .social-icons {
   gap: 12px;
   color: #fff;

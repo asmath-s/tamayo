@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1200px) {
+  .topbar {
+    background: linear-gradient(45deg, #0512a4 30%, #f8c629 0%);
+    padding: 6px 0;
+  }
   .trust h5 {
     font-size: 18px;
   }
@@ -764,6 +768,12 @@
   }
   .qualificationsContent h4 {
     margin-bottom: 12px;
+  }
+  .accordion-header button {
+    font-size: 14px !important;
+  }
+  .accordion-body {
+    font-size: 12px !important;
   }
 }
 @media only screen and (max-width: 330px) {

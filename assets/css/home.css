@@ -588,6 +588,12 @@
   width: 100px;
   border-radius: 100px;
 }
+.accordion-header button {
+  font-weight: 600;
+}
+.accordion-body {
+  text-align: justify;
+}
 .cta {
   overflow: hidden;
   position: relative;
