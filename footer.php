@@ -125,6 +125,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+      <script src="<?php echo get_template_directory_uri();?>/assets/js/lazyload.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -160,6 +161,7 @@
 
     <script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.js"></script>
     <script src="<?php echo get_template_directory_uri();?>/assets/js/custom.js"></script>
+      
         <?php wp_footer();?>
   </body>
 </html>

@@ -49,8 +49,9 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/home.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/about.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/philippines.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/blog.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/responsive.css" />
-    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css" />
+    
   </head>
   <body>
     <div class="topbar">
@@ -106,7 +107,7 @@
           </li>
           <li>
             <a href="https://www.uphdjgtmedicaluniversity.com/about">About Us</a>   </li>
-          <li><a href="https://www.uphdjgtmedicaluniversity.com/phillippines">Phillippines</a> </li>
+          <li><a href="https://uphdjgtmedicaluniversity.com/philippines/">Phillippines</a> </li>
           <li><a href="https://www.uphdjgtmedicaluniversity.com/">Gallery</a> </li>
           <li><a href="https://www.uphdjgtmedicaluniversity.com/">Contact</a> </li>
           <li><a href="https://www.uphdjgtmedicaluniversity.com/">Blog</a> </li>
