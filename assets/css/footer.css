@@ -1,0 +1,161 @@
+.footer-area {
+  display: flex;
+  background: linear-gradient(to bottom, #00234e, #004faf);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footerSide1Box {
+  display: flex;
+  flex-direction: column;
+}
+.footerLogo img {
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+.footerSide1Box p {
+  color: #fff;
+  margin-bottom: 35px;
+}
+.readMoreBtn {
+  display: flex;
+  align-items: center;
+}
+.readMoreBtn button {
+  position: relative;
+  padding: 6px 20px;
+  background: #f8c629;
+  font-size: 16px;
+  outline: none;
+  border-radius: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+}
+.footerSide2 {
+  display: flex;
+  flex-direction: column;
+}
+.offialInfo {
+  display: flex;
+  flex-direction: column;
+}
+.offialInfo h3,
+.openTime h3 {
+  color: #f8c629;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.offialInfo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.offialInfo a span {
+  margin-left: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.offialInfo p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.openTime p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footerSide2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contactform1 {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+.Contactform1 h5 {
+  margin-bottom: 12px;
+}
+.subBtn {
+  display: flex;
+  align-items: center;
+}
+.subBtn button {
+  position: relative;
+  padding: 6px 20px;
+  background: #f8c629;
+  font-size: 16px;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.copy-right-area {
+  background-color: #004faf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.copy-right-area p {
+  color: white;
+}
+
+.copy-right-area p i {
+  position: relative;
+  top: 2px;
+}
+
+.copy-right-area p a {
+  color: white;
+  font-weight: 400;
+}
+
+.copy-right-area p a:hover {
+  color: var(--main-color);
+}
+
+/* footer responsive */
+@media only screen and (max-width: 991px) {
+  .footer-area {
+    padding-top: 40px;
+    padding-bottom: 55px;
+  }
+  .footerContactform {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-area {
+    padding-top: 10px !important;
+    padding-bottom: 25px !important;
+  }
+  .footerSide1Box {
+    padding: 30px;
+  }
+  .footerLogo img {
+    margin-bottom: 25px;
+    width: 250px;
+  }
+  .footerSide1Box p {
+    margin-bottom: 18px;
+  }
+  .footerSide2 {
+    align-items: flex-start;
+  }
+  .offialInfo {
+    padding-left: 30px;
+  }
+  .footerContactform,
+  .Contactform1 {
+    padding: 30px;
+  }
+}

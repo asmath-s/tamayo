@@ -1,0 +1,48 @@
+.blimage {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 12px;
+  position: relative;
+}
+.blContent {
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 55px;
+}
+.blContent h3 {
+  margin-bottom: 15px !important;
+}
+.blContent h3:hover {
+  color: #0046c0;
+}
+.blContent h6 {
+  margin-bottom: 15px;
+}
+.blContent p {
+  text-align: justify;
+  margin-top: 15px;
+}
+.blmorebtn {
+  padding-right: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.blbtn {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 5px;
+  background: #040f50;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 9px;
+}
+.blbtn:hover {
+  background: #ee1c25;
+  color: white;
+}

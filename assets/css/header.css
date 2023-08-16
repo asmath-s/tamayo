@@ -1,0 +1,88 @@
+.navigation {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: space-between;
+}
+.navbar-toggler {
+  display: none;
+}
+.closebtn {
+  display: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-family: "raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.logo {
+  width: 280px;
+}
+.admissionbutton {
+  background: linear-gradient(
+    to top left,
+    rgb(20, 117, 247) 0%,
+    rgb(113, 20, 239) 100%
+  );
+  padding: 10px 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  gap: 10px;
+}
+.topbar {
+  background: linear-gradient(45deg, #0512a4 28%, #f8c629 0%);
+  padding: 6px 0;
+}
+
+.topbarinside {
+  justify-content: space-between;
+}
+.social-media {
+  gap: 15px;
+  color: #fff;
+}
+.social-media h6 {
+  color: #fff;
+}
+.social-icons {
+  gap: 12px;
+  color: #fff;
+}
+
+.social-icons i {
+  font-size: 18px;
+}
+
+.trust img {
+  width: 65px;
+}
+.trust {
+  gap: 15px;
+}
+.trust h5 {
+  color: #2741be !important;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.phone i {
+  background: linear-gradient(
+    to top left,
+    rgb(20, 117, 247) 0%,
+    rgb(113, 20, 239) 100%
+  );
+  color: #fff;
+  padding: 12px;
+  border-radius: 99px;
+}
+.phone h5 {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+}
+.phone {
+  gap: 12px;
+}

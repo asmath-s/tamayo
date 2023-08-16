@@ -1,0 +1,788 @@
+@media only screen and (max-width: 1200px) {
+  .topbar {
+    background: linear-gradient(45deg, #0512a4 30%, #f8c629 0%);
+    padding: 6px 0;
+  }
+  .trust h5 {
+    font-size: 18px;
+  }
+  .phone i {
+    padding: 8px;
+  }
+  .phone h5 {
+    font-size: 15px;
+  }
+  .social-icons i {
+    font-size: 16px;
+  }
+  .social-media,
+  .trust,
+  .phone {
+    gap: 8px;
+  }
+  .trust img {
+    width: 50px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .admissionbutton {
+    padding: 8px 15px;
+    border-radius: 99px;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 8px;
+  }
+  .navbar {
+    gap: 15px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar,
+  .topbar {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-toggler i {
+    font-size: 24px;
+  }
+  .navbar-hide {
+    display: none;
+  }
+  .closebtn {
+    background: #fff;
+    z-index: 5;
+    right: 97px;
+
+    position: absolute;
+    top: 10px;
+    right: 266px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: white;
+    z-index: 99;
+    transition: all 0.25s ease-in;
+    transition: right 0.25s ease-in-out;
+  }
+  .navbar-show {
+    display: block;
+    position: absolute;
+    /* display: flex; */
+    top: 0px;
+    right: 0;
+    width: 250px;
+    background: white;
+    z-index: 99;
+    height: 100vh;
+    padding: 20px;
+    transition: all 0.25s ease-in;
+    transition: right 0.25s ease-in-out;
+  }
+  .navbar-show li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity black */
+    z-index: 90;
+    display: none; /* initially hidden */
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p,
+  li,
+  span {
+    font-size: 16px;
+  }
+  .show-overlay {
+    display: block;
+  }
+  .homeAboutBox1 {
+    padding: 25px 0;
+  }
+  .homeContent3 p {
+    padding: 20px 20px 20px 0;
+    font-size: 16px;
+  }
+  .homeBox4 {
+    padding: 30px 0;
+  }
+  .homeContent4 p {
+    font-size: 16px;
+  }
+  .studLifeBox1 {
+    padding: 30px 0;
+  }
+  .stuLifeCol {
+    order: 2;
+  }
+  .studLifeImg1 img,
+  .studLifeImg2 img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .lifeHead h3 {
+    font-size: 25px;
+  }
+  .lifePoints1 li,
+  .lifePoints2 li {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .testamonialHead h3 {
+    font-size: 25px;
+  }
+  .testamonialContentBox {
+    height: 20em;
+    width: 92%;
+  }
+  .testamonialContent p {
+    font-size: 16px;
+  }
+  .accreditationHead h3,
+  .associatesHead h3 {
+    font-size: 25px;
+  }
+
+  .accreditImg,
+  .associatesImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 35px;
+    gap: 20px;
+  }
+  .advanceContent h3 {
+    font-size: 25px;
+  }
+  .advanceContent p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .facilitiesCol {
+    height: 29em;
+  }
+  .facilitiesBox {
+    padding: 35px 10px;
+  }
+  .facilitiesCol1 {
+    order: 2;
+    margin-top: 30px;
+  }
+  .facilitiesHead {
+    margin-bottom: 10px;
+  }
+  .facilitiesHead h3 {
+    font-size: 25px;
+  }
+  .facilitiesPoints {
+    margin-bottom: 15px;
+  }
+  .facilitiesPoints span {
+    font-size: 22px;
+    top: -1px;
+  }
+  .facilitiesPoints p {
+    font-size: 16px;
+  }
+  .facilitiesBox2 {
+    justify-content: flex-start;
+  }
+  .facilitiesImg {
+    padding-left: 0;
+  }
+  .campusFacilitiesBox {
+    padding: 30px 0;
+  }
+  .campusBox {
+    padding: 0 30px;
+  }
+  .campusFacilitiesHead h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .facilitiesCol {
+    margin: 8px;
+  }
+  .facilitieBox3 {
+    padding: 10px;
+  }
+  .campusFacilitiesImg {
+    margin-bottom: 10px;
+  }
+  .facilitieBox3 h4 {
+    font-size: 20px;
+  }
+  .facilitiesCol p {
+    font-size: 16px;
+  }
+  .ctaContent p,
+  .ctaBtn button span {
+    font-size: 16px;
+  }
+  .aboutBox1 {
+    padding: 30px 10px;
+  }
+  .aboutHead h3 {
+    font-size: 25px;
+  }
+  .aboutContent1,
+  .aboutContent2,
+  .aboutContent3 {
+    margin-bottom: 12px;
+  }
+  .aboutContent1 p,
+  .aboutContent2 p,
+  .aboutContent3 p {
+    font-size: 16px;
+  }
+  .aboutBoxImg {
+    text-align: left;
+    margin: 15px 0;
+  }
+  .homeContent2 {
+    order: 4;
+  }
+  .homeContent1 p,
+  .homeContent2 p {
+    font-size: 16px;
+  }
+  .facilities-carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+  .about2 {
+    padding: 30px 10px;
+  }
+  .aboutBoxImg2 {
+    margin-bottom: 20px;
+  }
+  .aboutContent4 {
+    text-align: justify;
+    padding-left: 0px;
+  }
+  .aboutContent4 p {
+    font-size: 16px;
+  }
+  .studySlide {
+    padding: 35px 25px;
+  }
+  .studySlideHead h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .ourfacultiesContentBox {
+    padding: 30px 0;
+  }
+  .ourfacultiesHead {
+    margin-bottom: 15px;
+  }
+  .ourfacultiesHead h3 {
+    font-size: 25px;
+  }
+  .ourfacultiesContent p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .aboutPhilippines {
+    padding: 30px 0;
+  }
+  .philippinesHead1 h3 {
+    color: #fff;
+    font-size: 25px;
+  }
+  .philippinesHead1 {
+    margin-bottom: 10px;
+  }
+  .philippinesPara1 p {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .philippinesImg2 {
+    order: 2;
+    margin-top: 20px;
+  }
+  .philippinesPara2 p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .majorCitiesContainer {
+    padding: 30px 0;
+  }
+  .majorCitiesHead h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .majorCitiesHead p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .majorCitiesContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .citiesUnderPara {
+    font-size: 16px;
+  }
+  .studyPhilippines {
+    padding: 30px 0;
+  }
+  .studyPhilippinesCol {
+    order: 2;
+  }
+  .studyPhilippinesImg {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .studyPhilippinesContent p {
+    font-size: 16px;
+  }
+  .studyPhilippinesHead {
+    margin-bottom: 12px;
+  }
+  .studyPhilippinesHead h3 {
+    font-size: 25px;
+  }
+  .advantages1Head {
+    margin-bottom: 15px;
+  }
+  .advantages1Container {
+    padding: 30px 0;
+  }
+  .advantagePointBox2,
+  .advantagePointBox1 {
+    padding-left: 0px;
+  }
+  .advantage2 {
+    padding: 30px 0;
+  }
+  .advantage2Head {
+    margin-bottom: 18px;
+  }
+  .PointBox1 {
+    margin-bottom: 14px;
+  }
+  .studentIndiaContainer {
+    padding: 30px 0;
+  }
+  .studentIndiaHead,
+  .benefitsPhilippines1Hea {
+    margin-bottom: 10px;
+  }
+  .studentIndiaImg {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .studentIndiaCol {
+    order: 2;
+    margin-top: 25px;
+  }
+  .highFMCE {
+    margin-top: 25px;
+  }
+  .ponitsCol1 {
+    margin-top: 25px;
+    order: 2;
+  }
+  .highFMCEHead,
+  .languageProblemHead,
+  .mdMedicineHead,
+  .clinicaltrainingHead {
+    margin-bottom: 12px;
+  }
+  .clinicaltrainingImg {
+    justify-content: flex-start;
+  }
+  .medicine {
+    padding: 30px 0;
+  }
+  .pgUSAimg {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+  .pgUSAContainer {
+    padding: 30px 0;
+  }
+  .benefitsPhilippines1,
+  .benefitsPhilippines2Container {
+    padding: 30px 0;
+  }
+  .benefitsPhilippines2-Co {
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  p,
+  li,
+  span {
+    font-size: 16px !important;
+  }
+  .homeContent3 p {
+    padding: 20px 0 0 0;
+    font-size: 16px;
+  }
+  .homeBox4 {
+    padding: 25px 0;
+  }
+  .studLifeBox1 {
+    padding: 20px 10px;
+  }
+  .studLifeBox2 {
+    padding: 20px 10px;
+  }
+  .testamonialContentBox {
+    height: 25em;
+    width: 90%;
+  }
+  .campusBox {
+    padding: 0 10px;
+  }
+  .facilities-carousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+  .studySlideHead img {
+    width: 120px;
+  }
+  .studySlide {
+    padding: 30px 20px;
+  }
+  .studySlide-carousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px;
+  }
+  .aboutPhilippines {
+    padding: 20px 0;
+  }
+  .philippinesHead1 h3 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .philippinesHead1 {
+    margin-bottom: 8px;
+  }
+  .philippinesPara1 p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .philippinesImg2 {
+    order: 2;
+    margin-top: 15px;
+  }
+  .philippinesPara2 p {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .majorCitiesContainer {
+    padding: 20px 0;
+  }
+  .majorCitiesHead h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .majorCitiesHead p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .majorCitiesContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .citiesUnderPara {
+    font-size: 14px;
+  }
+  .majorCitiesImg {
+    margin-bottom: 10px;
+  }
+  .qualificationsBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .qualificationsContent {
+    padding: 10px;
+  }
+  .qualificationsContent2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 18px;
+  }
+  .qualificationsPara1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 85px;
+    align-items: center;
+  }
+  .qualificationsPara1 p {
+    text-align: center;
+  }
+  .advantage2 {
+    padding: 20px 15px;
+  }
+  .advantage2Head {
+    margin-bottom: 14px;
+  }
+  .PointBox1 {
+    margin-bottom: 10px;
+  }
+  .advantage2Head img,
+  .majorCitiesHead img,
+  .studyPhilippinesHead img,
+  .advantages1Head img,
+  .advantage2Head img,
+  .pgUSAhead img {
+    width: 120px;
+  }
+  .majorCitiesHead,
+  .qualificationsHead,
+  .advantage2Head {
+    align-items: flex-start;
+  }
+  .advantages1Head h3 {
+    text-align: center;
+  }
+  .studentIndiaContainer,
+  .medicine {
+    padding: 30px 10px;
+  }
+  .highFMCE {
+    margin-top: 20px;
+  }
+  .ponitsCol1,
+  .benefitsPhilippines1-Co {
+    margin-top: 20px;
+    order: 2;
+  }
+  .pgUSAimg {
+    margin-bottom: 20px;
+  }
+  .pgUSAContainer {
+    padding: 30px 10px;
+  }
+  .pgUSApoints li,
+  .benefitsPhilippines1Ponits li {
+    padding-bottom: 8px;
+  }
+  .pgUSAhead {
+    margin-bottom: 15px;
+  }
+  .benefitsPhilippines1 {
+    padding: 30px 10px;
+  }
+  .benefitsPhilippines1Head h3,
+  .pgUSAhead h3 {
+    line-height: 33px;
+  }
+  .benefitsPhilippines2Container {
+    padding: 20px 10px;
+  }
+  .philippinesContent1 {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  h3 {
+    font-size: 20px !important;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p,
+  li,
+  span {
+    font-size: 14px !important;
+  }
+  .homeContent3 p {
+    padding: 10px 10px;
+  }
+  .homeBox4 {
+    padding: 20px 0;
+  }
+  .homeContent4 p {
+    font-size: 14px;
+  }
+  .middelBanner {
+    padding: 10px 0;
+  }
+  .lifeHead h3 {
+    font-size: 20px;
+  }
+  .lifeHead img,
+  .facilitiesHead img {
+    width: 100px;
+  }
+  .lifePoints1 li,
+  .lifePoints2 li {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .lifePoints1 li::before,
+  .lifePoints2 li::before {
+    width: 20px;
+    height: 20px;
+  }
+  .studLifeImg1 img,
+  .studLifeImg2 img {
+    width: 100%;
+  }
+  .testamonialHead h3 {
+    font-size: 20px;
+  }
+  .testamonialContentBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .testamonialContainer {
+    padding: 20px 20px;
+  }
+  .testamonialContentBox {
+    height: 40em;
+    width: 82%;
+  }
+  .testamonialContent {
+    position: relative;
+    padding-left: 0;
+    padding-top: 135px;
+  }
+  .testamonialContent p {
+    font-size: 14px !important;
+    text-align: left;
+  }
+  .accreditationHead h3,
+  .associatesHead h3 {
+    font-size: 20px;
+  }
+  .associatesImg1,
+  .accreditImg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .associatesImg1 img,
+  .accreditImg1 img {
+    width: 175px !important;
+  }
+  .advanceContent h3 {
+    font-size: 20px;
+  }
+  .advanceContent p {
+    text-align: center;
+  }
+  .facilitiesCol {
+    height: 24em;
+  }
+  .facilitiesBox {
+    padding: 20px 10px;
+  }
+  .facilitiesHead h3 {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+  .facilitiesPoints p {
+    padding-left: 38px;
+  }
+  .facilitiesPoints span {
+    font-size: 18px !important;
+    top: 1px;
+    left: 8px;
+  }
+  .facilitiesCol1 {
+    order: 2;
+    margin-top: 20px;
+  }
+  .homeContent1,
+  .homeContent2 {
+    padding: 20px 30px;
+  }
+  .homeContent1 h3 {
+    text-align: center;
+    line-height: 30px;
+  }
+  .aboutHead {
+    margin-bottom: 8px;
+  }
+  .aboutBoxImg2 {
+    margin-bottom: 15px;
+  }
+  .studySlide {
+    padding: 25px 15px;
+  }
+  .studySlideHead h3 {
+    text-align: center;
+  }
+  .ourfacultiesContentBox {
+    padding: 22px 10px;
+  }
+  .ourfacultiesHead {
+    margin-bottom: 12px;
+  }
+  .ourfacultiesContent p {
+    margin-bottom: 12px;
+  }
+  .studyPhilippines {
+    padding: 20px 0;
+  }
+  .studyPhilippinesCol {
+    order: 2;
+  }
+  .studyPhilippinesHead {
+    margin-bottom: 8px;
+  }
+  .studyPhilippinesImg {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .advantages1Container {
+    padding: 20px 0;
+  }
+  .advantages1Para h4 {
+    margin-bottom: 12px;
+  }
+  .qualifications {
+    padding: 20px 0;
+  }
+  .qualificationsHead img {
+    margin-bottom: 10px;
+  }
+  .qualificationsContent h4 {
+    margin-bottom: 12px;
+  }
+  .accordion-header button {
+    font-size: 14px !important;
+  }
+  .accordion-body p {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .testamonialContentBox {
+    height: 40em;
+    width: 100%;
+  }
+  .facilitiesCol {
+    height: 30em;
+  }
+}
