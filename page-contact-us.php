@@ -44,9 +44,9 @@
                             <a href="mailto:info.kingsnext@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                         </div>
                         <div class="text">
-                            <a href="mailto:info.kingsnext@gmail.com">
+                            <a href="mailto:uphdjgtmedicaluniversity@gmail.com">
                                 <h3>Email</h3>
-                                <p>info.kingsnext@gmail.com</p>
+                                <p>uphdjgtmedicaluniversity@gmail.com</p>
                             </a>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             </div>
                             <div class="text">
                                 <h3>Address</h3>
-                                <p>SH 49, Poonjeri, Mahabalipuram, Tamil Nadu 603104.</p>
+                                <p>Door No : 9 - 3rd Floor, Rams Apartment, 13/10, 1st St, Sowbhagya Colony, Sector 1, Ashok Nagar, Chennai, Tamil Nadu 600083</p>
                             </div>
                         </div>
                     </a>

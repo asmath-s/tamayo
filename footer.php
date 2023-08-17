@@ -42,7 +42,7 @@
       <div class="col-lg-4 col-md-6 footerSide2">
         <div class="offialInfo">
           <h3>Official Info</h3>
-          <a href="#"><i class="fa-solid fa-envelope"
+          <a href="mailto:uphdjgtmedicaluniversity@gmail.com"><i class="fa-solid fa-envelope"
               style="color: #ffffff"></i><span>uphdjgtmedicaluniversity@gmail.com</span></a>
           <a href="tel:+918122878122"><i class="fa-solid fa-phone"
               style="color: #ffffff"></i><span>8122878122</span></a>
