@@ -44,8 +44,9 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/about.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/philippines.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/blog.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/form.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/responsive.css" />
-    
+
   </head>
   <body>
     <div class="topbar">
