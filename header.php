@@ -61,11 +61,11 @@
           <div class="social-media d-flex align-items-center">
             <h6>Follow Us :</h6>
             <div class="social-icons d-flex align-items-center">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a> 
+              <a href="https://www.facebook.com/UPH.DJGTamayoMedicalUniversity"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/uph_djgtamayomedicaluniversity/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://twitter.com/UPH_DJGTMU"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/uph-djg-tamayo-medical-university-381807277/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UCK8k9jpB2YzMBiRVi1r1gCw"><i class="fa-brands fa-youtube"></i></a> 
             </div>
           </div>
           <div class="trust d-flex align-items-center">

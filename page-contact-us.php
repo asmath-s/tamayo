@@ -55,18 +55,21 @@
 
                     <ul class="sci">
                         <li>
-                            <a href="https://www.facebook.com/kingsFmgeNext"><i
+                            <a href="https://www.facebook.com/UPH.DJGTamayoMedicalUniversity"><i
                                     class="fa-brands fa-square-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/Kingsnextfmge"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://twitter.com/UPH_DJGTMU"><i class="fa-brands fa-square-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/uph-djg-tamayo-medical-university-381807277/"><i class="fa-brands fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/kingsnextfmge/#"><i
+                            <a href="https://www.instagram.com/uph_djgtamayomedicaluniversity/"><i
                                     class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCK8k9jpB2YzMBiRVi1r1gCw"><i class="fa-brands fa-youtube"></i></a> 
                         </li>
                     </ul>
                 </div>

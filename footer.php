@@ -30,7 +30,7 @@
             Education : UPH-DJG Tamayo Medical University.
           </p>
           <div class="readMoreBtn">
-            <a href="#">
+            <a href="https://www.uphdjgtmedicaluniversity.com/about">
               <button type="button" class="ContactBtn">
                 <span> Read Us </span>
               </button>
