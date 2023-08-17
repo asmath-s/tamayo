@@ -87,7 +87,9 @@
     <div class="container d-flex align-items-center navigation">
 
       <div class="logo">
-        <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Tamayo" />
+        <a href="https://www.uphdjgtmedicaluniversity.com/">
+          <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Tamayo" />
+        </a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
         onclick="toggleNavbar()">
@@ -1010,4 +1012,4 @@
         </div>
       </div>
     </section>
-<?php wp_footer()?>
+<?php get_footer()?>

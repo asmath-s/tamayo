@@ -16,10 +16,10 @@
     </div>
   </div>
 </section>
-<span class="whatsappbtn">
+<div class="whatsappbtn">
     <a style="color:#FFFFFF" href="https://api.whatsapp.com/send?phone=918122878122&amp;text=Hello%20UPH%20Dr%20Jose%20G%20Tamayo%20Medical%20University%20%21%21%20Please%20let%20me%20know%20more%20about%20your%20university%20offerings%21%21" title="connect-whatsapp-chat" target="_blank">
-        <img src="images/icons/whatsapp-icon.png">
-    </a></span>
+        <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+    </a></div>
 <footer class="footer-area ptb-70">
   <div class="container">
     <div class="row">

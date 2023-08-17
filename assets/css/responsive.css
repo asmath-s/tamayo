@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1920px) {
+  .topbar {
+    background: linear-gradient(45deg, #0512a4 30%, #f8c629 0%);
+    padding: 6px 0;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .topbar {
     background: linear-gradient(45deg, #0512a4 30%, #f8c629 0%);
