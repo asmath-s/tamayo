@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr.Jose G.Tamayo Medical University, Philippines</title>
+<title>Best Medical University in Philippines - Dr Josh G Tamayo Medical University </title>
+      <meta name="description" content="Dr.Jose.G Tamayo Medical University is one of the Best Medical University in Philippines, Look into the Modern Library, Modern Classroom, Digital Webinars.">
+      <meta name="keywords" content="Contact Us- UPH-DJG Tamayo Medical University">
   <?php get_header();?>
 
 <section class="PhilippinesPageHeader">

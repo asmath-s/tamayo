@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr.Jose G.Tamayo Medical University, Philippines</title>
+<title>University of Perpetual Help System Dalta(UPHSD) Manila, Philippines</title>
+  <meta name="description" content="University of Perpetual Help System Dalta(UPHSD) Located at  Manila, Philippines.We provide the modern education with higly equiped laboratory, hands-on experience for MBBS/MD Students">
+  <meta name="keywords" content="Dr.Jose.G.Tamayo Medical University,best medical university in philippines,University of Perpetual Help System Dalta,UPHS">
   <?php get_header();?>
 
    <section class="PhilippinesPageHeader">
