@@ -11,50 +11,61 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
-    integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://kit.fontawesome.com/b0eb9bd990.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/global.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/header.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/footer.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/home.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/about.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/philippines.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/blog.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/form.css" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/responsive.css" />
-
-</head>
-
-<body>
-  <div class="topbar">
-    <div class="container">
-      <div class="topbarinside d-flex align-items-center">
-        <div class="social-media d-flex align-items-center">
-          <h6>Follow Us :</h6>
-          <div class="social-icons d-flex align-items-center">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-youtube"></i>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+      integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/b0eb9bd990.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/global.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/header.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/footer.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/home.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/about.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/philippines.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/blog.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/responsive.css" />
+    
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <div class="topbarinside d-flex align-items-center">
+          <div class="social-media d-flex align-items-center">
+            <h6>Follow Us :</h6>
+            <div class="social-icons d-flex align-items-center">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
           </div>
-        </div>
-        <div class="trust d-flex align-items-center">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/trust-icon.webp" alt="" />
-          <h5>Most Premium and Prestigious University</h5>
-        </div>
-        <div class="phone d-flex align-items-center">
-          <a href="tel:+918122878122">
+          <div class="trust d-flex align-items-center">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/trust-icon.webp" alt="" />
+            <h5>Most Premium and Prestigious University</h5>
+          </div>
+          <div class="phone d-flex align-items-center">
             <i class="fa-solid fa-phone"></i>
             <h5>8122878122</h5>
           </a>
