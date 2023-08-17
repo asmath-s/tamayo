@@ -1,0 +1,86 @@
+.contact {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.sci {
+  position: relative;
+  padding-left: 15px;
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  color: #142959;
+  font-size: 2em;
+  align-items: flex-start;
+  transition: 0.5s;
+}
+.sci li a:hover {
+  color: #f8c629;
+}
+.contact-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.contact-info .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  cursor: pointer;
+}
+.contact-info .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background-color: #f8c629;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  transition: 0.5s;
+}
+.contact-info .box .icon a {
+  color: #fff;
+}
+.contact-info .box:hover .icon {
+  background-color: #004faf;
+  color: #ffffff;
+}
+.contact-info .box .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 1.1em;
+  color: #9ba4b5;
+  font-weight: 300;
+}
+.contact-info .box .text h3 {
+  font-weight: 500;
+  color: #142959;
+}
+.map {
+  width: 100%;
+}
+.contact-form {
+  padding-left: 15px;
+}
+.subBtn1 {
+  display: flex;
+  align-items: center;
+}
+.subBtn1 button {
+  position: relative;
+  padding: 6px 20px;
+  background: #f8c629;
+  font-size: 16px;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  overflow: hidden;
+  cursor: pointer;
+}
