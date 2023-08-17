@@ -1,9 +1,95 @@
  <?php wp_head();?>
 
- <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/assets/images/favicon.png"
-   type="image/x-icon" />
- <link href="https://docs.google.com/document/d/1-IyBCJDZ9yYQ_KtsbOtdp_-57r--3XAcC2hOfa_Ryzw/edit?usp=share_link
-" />
+ <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H3FPE5JJG"></script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+
+   function gtag() {
+     dataLayer.push(arguments);
+   }
+   gtag('js', new Date());
+   gtag('config', 'G-6H3FPE5JJG');
+ </script>
+
+ <!-- clarity-->
+ <script type="text/javascript">
+   (function (c, l, a, r, i, t, y) {
+     c[a] = c[a] || function () {
+       (c[a].q = c[a].q || []).push(arguments)
+     };
+     t = l.createElement(r);
+     t.async = 1;
+     t.src = ""
+     https: //www.clarity.ms/tag/""+i;
+       y = l.getElementsByTagName(r)[0];
+     y.parentNode.insertBefore(t, y);
+   })(window, document, ""
+     clarity "", ""
+     script "", ""
+     h3ui84blyi "");
+ </script>
+
+ <!--chat pot-->
+ <script>
+   (function (w, d) {
+     w.CollectId = "6460e2081b0491e28f6198a0";
+     var h = d.head || d.getElementsByTagName("head")[0];
+     var s = d.createElement("script");
+     s.setAttribute("type", "text/javascript");
+     s.async = true;
+     s.setAttribute("src", "https://collectcdn.com/launcher.js");
+     h.appendChild(s);
+   })(window, document);
+ </script>
+ 
+ <!-- Google Tag Manager -->
+ <script>
+   (function (w, d, s, l, i) {
+     w[l] = w[l] || [];
+     w[l].push({
+       'gtm.start': new Date().getTime(),
+       event: 'gtm.js'
+     });
+     var f = d.getElementsByTagName(s)[0],
+       j = d.createElement(s),
+       dl = l != 'dataLayer' ? '&l=' + l : '';
+     j.async = true;
+     j.src =
+       'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+     f.parentNode.insertBefore(j, f);
+   })(window, document, 'script', 'dataLayer', 'GTM-WWNHXHN');
+ </script>
+ <!-- End Google Tag Manager -->
+
+ <meta name="msvalidate.01" content="3E60C2AAAB650CDF8B6B089E1FAD6267" />
+ <!-- Google site Verification-->
+<meta name="google-site-verification" content="dhrjggQx7sBkgaM02pCp4BWtrvv_88VNtUXZRrIN_Ns" />
+ 	<meta name="keywords"
+		content="tamayo medical university, best medical university in philippines, Dr.Jose.G.Tamayo Medical University, UPH-Dr.Jose G.Tamayo Medical University">
+	<link rel="canonical" href="https://uphdjgtmedicaluniversity.com/" />
+	<meta name="googlebot" content="index, follow">
+	<meta name="yahoobot" content="index, follow">
+	<meta name="msnbot" content="index, follow">
+	<meta name='copyright' content="https://uphdjgtmedicaluniversity.com/">
+	<meta name='owner' content="https://uphdjgtmedicaluniversity.com/">
+	<meta name="author" content="https://uphdjgtmedicaluniversity.com/">
+	<meta name="rating" content="general">
+	<meta name="country" content="India">
+	<meta name="City" content="chennai">
+	<meta name="Language" content="english">
+	<meta name="copyright" content="Copyright 2023 Tamayo Medical University">
+	<meta itemprop="title" content=" Tamayo Medical University">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://uphdjgtmedicaluniversity.com/">
+	<meta property="og:site_name" content="Tamayo Medical University">
+	<meta property="og:city" content="sivakasi">
+	<meta property="og:Country" content="India">
+
+
+ <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/assets/images/favicon.png" type="image/x-icon" />
+ <link href="https://docs.google.com/document/d/1-IyBCJDZ9yYQ_KtsbOtdp_-57r--3XAcC2hOfa_Ryzw/edit?usp=share_link"/>
  <script src="<?php echo get_template_directory_uri();?>/assets/js/custom.js"></script>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
@@ -51,7 +137,8 @@
            </div>
          </div>
          <div class="trust d-flex align-items-center">
-           <img src="<?php bloginfo('template_directory');?>/assets/images/trust-icon.webp" alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines" />
+           <img src="<?php bloginfo('template_directory');?>/assets/images/trust-icon.webp"
+             alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines" />
            <h5>Most Premium and Prestigious University</h5>
          </div>
          <div class="phone d-flex align-items-center">
@@ -68,7 +155,8 @@
 
        <div class="logo">
          <a href="https://www.uphdjgtmedicaluniversity.com/">
-           <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines" />
+           <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp"
+             alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines" />
          </a>
        </div>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
@@ -84,8 +172,8 @@
            <a href="https://www.uphdjgtmedicaluniversity.com/">Home</a>
          </li>
          <li>
-           <a href="https://www.uphdjgtmedicaluniversity.com/about">About Us</a> </li>
-         <li><a href="https://uphdjgtmedicaluniversity.com/philippines/">Phillippines</a> </li>
+           <a href="https://uphdjgtmedicaluniversity.com/about-us/">About Us</a> </li>
+         <li><a href="https://uphdjgtmedicaluniversity.com/mbbs-in-philippines/">Phillippines</a> </li>
          <li><a href="https://uphdjgtmedicaluniversity.com/gallery/">Gallery</a> </li>
          <li><a href="https://uphdjgtmedicaluniversity.com/contact-us/">Contact</a> </li>
          <li><a href="https://uphdjgtmedicaluniversity.com/blog/">Blog</a> </li>
@@ -109,7 +197,7 @@
    </div>
    <div id="video-popup" class="video-popup mfp-hide">
 
-          <h5>Contact Us</h5>
-          <?php echo do_shortcode('[contact-form-7 id="73607cb" title="Footer form"]'); ?>
+     <h5>Contact Us</h5>
+     <?php echo do_shortcode('[contact-form-7 id="73607cb" title="Footer form"]'); ?>
 
    </div>
