@@ -77,7 +77,9 @@
     <div class="container d-flex align-items-center navigation">
 
       <div class="logo">
-        <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Tamayo" />
+        <a href="https://www.uphdjgtmedicaluniversity.com/">
+          <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Tamayo" />
+        </a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
         onclick="toggleNavbar()">
@@ -111,6 +113,6 @@
   <div class="overlay"></div>
   <div>
     <a href="https://api.whatsapp.com/send?phone=918122878122&amp;text=Hello%20UPH%20Dr%20Jose%20G%20Tamayo%20Medical%20University%20%21%21%20Please%20let%20me%20know%20more%20about%20your%20university%20offerings%21%21" target="_blank" class="whatsapp-icon">
-      <img data-src="https://kingsnext.com/wp-content/themes/theme/assets/images/header/icons8-whatsapp-96.png" src="https://kingsnext.com/wp-content/themes/theme/assets/images/header/icons8-whatsapp-96.png">
+      <img src="<?php bloginfo('template_directory');?>/assets/images/icons8-whatsapp-96.png">
     </a>
   </div>
