@@ -1,0 +1,40 @@
+.wpcf7-form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wpcf7-submit {
+  font-size: 16px;
+  color: black !important;
+  line-height: 1;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-table;
+  padding: 15px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-top: 30px;
+  background: #f8c629;
+}
+
+.wpcf7-submit:hover {
+  background: #002d65 !important;
+  color: white !important;
+}
