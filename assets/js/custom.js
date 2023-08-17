@@ -1,15 +1,3 @@
-var script = document.createElement("script");
-script.async = true;
-script.src = "https://www.googletagmanager.com/gtag/js?id=G-6H3FPE5JJG";
-document.head.appendChild(script);
-
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag("js", new Date());
-gtag("config", "G-6H3FPE5JJG");
-
 // Google claarity
 (function (c, l, a, r, i, t, y) {
   c[a] =
@@ -24,6 +12,7 @@ gtag("config", "G-6H3FPE5JJG");
   y.parentNode.insertBefore(t, y);
 })(window, document, "clarity", "script", "h3ui84blyi");
 
+// launcher
 (function (w, d) {
   w.CollectId = "6460e2081b0491e28f6198a0";
   var h = d.head || d.getElementsByTagName("head")[0];
@@ -35,6 +24,18 @@ gtag("config", "G-6H3FPE5JJG");
 })(window, document);
 
 // Google Tag Manager
+var script = document.createElement("script");
+script.async = true;
+script.src = "https://www.googletagmanager.com/gtag/js?id=G-6H3FPE5JJG";
+document.head.appendChild(script);
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+gtag("config", "G-6H3FPE5JJG");
+
 (function (w, d, s, l, i) {
   w[l] = w[l] || [];
   w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
