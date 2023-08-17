@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+ <?php wp_head();?>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <?php wp_head();?>
-  <title>Dr.Jose G.Tamayo Medical University, Philippines</title>
   <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/assets/images/favicon.png"
     type="image/x-icon" />
+         <link href="https://docs.google.com/document/d/1-IyBCJDZ9yYQ_KtsbOtdp_-57r--3XAcC2hOfa_Ryzw/edit?usp=share_link
+"/>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/custom.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
@@ -46,13 +43,8 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/philippines.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/blog.css"/>
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/contact.css"/>
-
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/form.css"/>
- 
-
-    
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/responsive.css" />
-
   </head>
   <body>
     <div class="topbar">
@@ -106,11 +98,14 @@
         <li><a href="https://uphdjgtmedicaluniversity.com/contact-us/">Contact</a> </li>
         <li><a href="https://uphdjgtmedicaluniversity.com/blog/">Blog</a> </li>
         <li>
+           <a href="#video-popup" class="open-popup-link popup-youtube video-btn">
           <button type="button" class="btn btn-primary admissionbutton d-flex align-items-center">
             Admission Now <i class="fa-solid fa-arrow-right"></i>
           </button>
+</a>
         </li>
       </ul>
     </div>
   </nav>
+
   <div class="overlay"></div>
