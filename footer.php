@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 footerSide1">
         <div class="footerSide1Box">
-          <a href="#" class="footerLogo">
+          <a href="https://www.uphdjgtmedicaluniversity.com/" class="footerLogo">
             <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo footer.png" />
           </a>
           <p>

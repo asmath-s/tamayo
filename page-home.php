@@ -306,6 +306,7 @@
       </div>
     </section>
 
+
     <section class="accreditation">
       <div class="container">
         <div class="accreditationBox">
@@ -313,17 +314,11 @@
             <h3>Accreditation</h3>
             <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="" />
           </div>
-          <div class="accredit-carousel owl-carousel owl-theme accreditImg">
+          <div class="accreditImgBox">
             <div class="accreditImg1">
               <img src="<?php bloginfo('template_directory');?>/assets/images/home/nmc.webp" alt="" />
-            </div>
-            <div class="accreditImg1">
               <img src="<?php bloginfo('template_directory');?>/assets/images/home/ecf.jpg" alt="" />
-            </div>
-            <div class="accreditImg1">
               <img src="<?php bloginfo('template_directory');?>/assets/images/home/ched.jpg" alt="" />
-            </div>
-            <div class="accreditImg1">
               <img src="<?php bloginfo('template_directory');?>/assets/images/home/wdoms.jpg" alt="" />
             </div>
           </div>
@@ -405,24 +400,17 @@
         </div>
       </div>
     </section>
-
-    <section class="associates">
+   <section class="associates">
       <div class="container associatesBox">
         <div class="associatesHead">
           <h3>Authorized Associates</h3>
           <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="" />
         </div>
-        <div class="associates-carousel owl-carousel owl-theme associatesImg">
-          <div class="associatesImg1">
+        <div class="accreditImgBox">
+          <div class="accreditImg1">
             <img src="<?php bloginfo('template_directory');?>/assets/images/home/global 01.webp" alt="" />
-          </div>
-          <div class="associatesImg1">
             <img src="<?php bloginfo('template_directory');?>/assets/images/home/med world.webp" alt="" />
-          </div>
-          <div class="associatesImg1">
             <img src="<?php bloginfo('template_directory');?>/assets/images/home/lotus 1.webp" alt="" />
-          </div>
-          <div class="associatesImg1">
             <img src="<?php bloginfo('template_directory');?>/assets/images/home/neolife 1.webp" alt="" />
           </div>
         </div>
