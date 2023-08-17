@@ -55,11 +55,11 @@
           <div class="social-media d-flex align-items-center">
             <h6>Follow Us :</h6>
             <div class="social-icons d-flex align-items-center">
-              <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fa-brands fa-youtube"></i>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a> 
             </div>
           </div>
           <div class="trust d-flex align-items-center">
@@ -67,10 +67,10 @@
             <h5>Most Premium and Prestigious University</h5>
           </div>
           <div class="phone d-flex align-items-center">
-            <i class="fa-solid fa-phone"></i>
-            <h5>8122878122</h5>
-          </a>
-
+            <a  href="tel:+918122728122">
+              <i class="fa-solid fa-phone"></i>
+              <h5>8122878122</h5>
+            </a>
         </div>
       </div>
     </div>
@@ -96,9 +96,9 @@
         <li>
           <a href="https://www.uphdjgtmedicaluniversity.com/about">About Us</a> </li>
         <li><a href="https://uphdjgtmedicaluniversity.com/philippines/">Phillippines</a> </li>
-        <li><a href="https://www.uphdjgtmedicaluniversity.com/">Gallery</a> </li>
-        <li><a href="https://www.uphdjgtmedicaluniversity.com/">Contact</a> </li>
-        <li><a href="https://www.uphdjgtmedicaluniversity.com/">Blog</a> </li>
+        <li><a href="https://uphdjgtmedicaluniversity.com/gallery/">Gallery</a> </li>
+        <li><a href="https://uphdjgtmedicaluniversity.com/contact-us/">Contact</a> </li>
+        <li><a href="https://uphdjgtmedicaluniversity.com/blog/">Blog</a> </li>
         <li>
           <button type="button" class="btn btn-primary admissionbutton d-flex align-items-center">
             Admission Now <i class="fa-solid fa-arrow-right"></i>
