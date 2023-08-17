@@ -94,3 +94,18 @@ ul {
 .mb-15 {
   margin-bottom: 15px;
 }
+
+.video-popup {
+  position: relative;
+  padding: 0px;
+  width: auto;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.white-popup {
+  position: relative;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
