@@ -97,10 +97,12 @@ ul {
 
 .video-popup {
   position: relative;
-  padding: 0px;
+  padding: 40px;
   width: auto;
   max-width: 800px;
   margin: 0px auto;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .white-popup {

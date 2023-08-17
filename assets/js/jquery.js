@@ -122,16 +122,11 @@ $(".associates-carousel").owlCarousel({
     },
   },
 });
-
-$(".popup-youtube, .popup-vimeo").magnificPopup({
-  disableOn: 300,
-  type: "iframe",
-  mainClass: "mfp-fade",
-  removalDelay: 160,
-  preloader: false,
-  fixedContentPos: false,
+$(document).ready(function () {
+  setTimeout(function () {
+    $(".open-popup-link").magnificPopup("open");
+  }, 10000); // 10 seconds delay (10000 milliseconds)
 });
-
 $(".open-popup-link").magnificPopup({
   type: "inline",
   midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.

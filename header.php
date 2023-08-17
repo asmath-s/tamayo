@@ -108,5 +108,6 @@
      </a>
    </div>
    <div id="video-popup" class="video-popup mfp-hide">
-     <?php echo do_shortcode('[contact-form-7 id="73607cb" title="Footer form"]'); ?>
+          <h5>Contact Us</h5>
+          <?php echo do_shortcode('[contact-form-7 id="73607cb" title="Footer form"]'); ?>
    </div>
