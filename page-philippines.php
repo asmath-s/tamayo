@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Philippines MBBS for Indian & Globe Students - Apply Now 2023-24</title>
+ <title>Philippines - UPH- Dr. Jose. G Tamayo Medical University</title>
       <meta name="description" content="Philippines in MBBS for Indian and Globe Students. Admission open for 2023 - 24 batch for MBBS/MD. Check the eligible createria for MBBS In Philippines.Apply Now!">
       <meta name="keywords" content="Philippines MBBS for Indian Students, MBBS in Philippines,study MBBS in Philippines,MBBS in Philippines Eligibility Criteria,Studying MBBS in Philippines ">
  <?php get_header();?>

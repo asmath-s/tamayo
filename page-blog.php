@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr.Jose G.Tamayo Medical University, Philippines</title>
+ <title>Blog - UPH- Dr. Jose. G Tamayo Medical University</title>
   <?php get_header();?>
 
 

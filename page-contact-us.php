@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Best Medical University in Philippines - Dr Josh G Tamayo Medical University </title>
+ <title>Contact Us - UPH- Dr. Jose. G Tamayo Medical University</title>
       <meta name="description" content="Dr.Jose.G Tamayo Medical University is one of the Best Medical University in Philippines, Look into the Modern Library, Modern Classroom, Digital Webinars.">
       <meta name="keywords" content="Contact Us- UPH-DJG Tamayo Medical University">
   <?php get_header();?>
@@ -119,7 +119,7 @@
     </div>
 </section>
 <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3893.417688906984!2d80.1797378!3d12.620581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53abea2cc0b719%3A0x19548fac2ca4bcf!2sKINGS%20INTERNATIONAL%20MEDICAL%20ACADEMY%20-%20Best%20NEET%20Coaching%20Centre%20in%20Chennai!5e0!3m2!1sen!2sin!4v1686220801819!5m2!1sen!2sin"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1943.4915313142953!2d80.2034786!3d13.03675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267ef797a79f5%3A0xada02154744b471c!2sUPH-Dr.Jose%20G.%20Tamayo%20Medical%20University%20-%20Indian%20Admission%20Office!5e0!3m2!1sen!2sin!4v1692273244579!5m2!1sen!2sin"
     height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
     class="map">
 </iframe>
