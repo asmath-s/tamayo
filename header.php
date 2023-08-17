@@ -51,7 +51,7 @@
            </div>
          </div>
          <div class="trust d-flex align-items-center">
-           <img src="<?php bloginfo('template_directory');?>/assets/images/trust-icon.webp" alt="" />
+           <img src="<?php bloginfo('template_directory');?>/assets/images/trust-icon.webp" alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines" />
            <h5>Most Premium and Prestigious University</h5>
          </div>
          <div class="phone d-flex align-items-center">
@@ -68,7 +68,7 @@
 
        <div class="logo">
          <a href="https://www.uphdjgtmedicaluniversity.com/">
-           <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Tamayo" />
+           <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo.webp" alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines" />
          </a>
        </div>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
@@ -108,6 +108,8 @@
      </a>
    </div>
    <div id="video-popup" class="video-popup mfp-hide">
+
           <h5>Contact Us</h5>
           <?php echo do_shortcode('[contact-form-7 id="73607cb" title="Footer form"]'); ?>
+
    </div>

@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>University of Perpetual Help System Dalta(UPHSD) Manila, Philippines</title>
-  <meta name="description" content="University of Perpetual Help System Dalta(UPHSD) Located at  Manila, Philippines.We provide the modern education with higly equiped laboratory, hands-on experience for MBBS/MD Students">
+<title>university of perpetual help system - Dr. Jose G. Tamayo Medical University
+</title>
+  <meta name="description" content="UPH-Dr. Jose G. Tamayo Medical University Located at  Manila, Philippines to provide the modern education with higly equiped laboratory, hands-on experience for MBBS/MD Students. ">
   <meta name="keywords" content="Dr.Jose.G.Tamayo Medical University,best medical university in philippines,University of Perpetual Help System Dalta,UPHS">
   <?php get_header();?>
 
@@ -125,14 +126,14 @@
         <div class="studySlideBox">
           <div class="studySlideHead">
             <h3>Study MBBS / MD - Laguna, Manila – Philippines</h3>
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
           </div>
 
           <div class="studySlide-carousel owl-carousel owl-theme">
             <div class="studySlideCol">
               <div class="studySlideContent">
                 <div class="studySlideImg">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 1.png" alt="" />
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 1.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
                 </div>
                 <p>WHO/WDOMS, ECFMG, <br />MCI/NMC Recognised</p>
               </div>
@@ -141,7 +142,7 @@
             <div class="studySlideCol">
               <div class="studySlideContent">
                 <div class="studySlideImg">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 2.png" alt="" />
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 2.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
                 </div>
                 <p>
                   Globally Recognized<br />
@@ -153,7 +154,7 @@
             <div class="studySlideCol">
               <div class="studySlideContent">
                 <div class="studySlideImg">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 3.png" alt="" />
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 3.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
                 </div>
                 <p>
                   Excellent Hands-On<br />
@@ -165,7 +166,7 @@
             <div class="studySlideCol">
               <div class="studySlideContent">
                 <div class="studySlideImg">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 4.png" alt="" />
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 4.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
                 </div>
                 <p>World Class <br />Infrastructure</p>
               </div>
@@ -174,7 +175,7 @@
             <div class="studySlideCol">
               <div class="studySlideContent">
                 <div class="studySlideImg">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 5.png" alt="" />
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/about/study-slide 5.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
                 </div>
                 <p>American Pattern <br />Education</p>
               </div>
@@ -189,7 +190,7 @@
         <div class="ourfacultiesContentBox">
           <div class="ourfacultiesHead">
             <h3>Our Faculties</h3>
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="UPH-Dr.Jose.G.Tamayo Medical University" />
           </div>
           <div class="ourfacultiesContent">
             <p>

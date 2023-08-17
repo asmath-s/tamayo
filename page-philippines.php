@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Philippines - UPH- Dr. Jose. G Tamayo Medical University</title>
+ <title>MBBS in Philippines | Philippines MBBS Colleges for Indian Students & International Students</title>
       <meta name="description" content="Philippines in MBBS for Indian and Globe Students. Admission open for 2023 - 24 batch for MBBS/MD. Check the eligible createria for MBBS In Philippines.Apply Now!">
       <meta name="keywords" content="Philippines MBBS for Indian Students, MBBS in Philippines,study MBBS in Philippines,MBBS in Philippines Eligibility Criteria,Studying MBBS in Philippines ">
  <?php get_header();?>
@@ -60,7 +60,7 @@
             </div>
             <div class="col-lg-6 philippinesImg2">
               <div class="">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Philippines 2.webp" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Philippines 2.webp" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
             </div>
             <div class="col-lg-6 philippinesContent2">
@@ -89,33 +89,33 @@
         <div class="majorCitiesContainer">
           <div class="majorCitiesHead">
             <h3>Major Cities in Philippines</h3>
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png"  alt="MBBS In Philippines For Indian Students & International Students" />
             <p>The Philippines offers modern infrastructure and amenities.</p>
           </div>
           <div class="majorCitiesContent">
             <div class="majorCitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Manila.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Manila.webp"  alt="MBBS In Philippines For Indian Students & International Students" />
               <div class="Cities">
                 <p>Manila</p>
               </div>
             </div>
 
             <div class="majorCitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Cebu.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Cebu.webp"  alt="MBBS In Philippines For Indian Students & International Students" />
               <div class="Cities">
                 <p>Cebu</p>
               </div>
             </div>
 
             <div class="majorCitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Davao.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Davao.webp" alt="MBBS In Philippines For Indian Students & International Students" />
               <div class="Cities">
                 <p>Davao</p>
               </div>
             </div>
 
             <div class="majorCitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Cagayan de Ora.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Cagayan de Ora.webp" alt="MBBS In Philippines For Indian Students & International Students" />
               <div class="Cities">
                 <p>Cagayan de Ora</p>
               </div>
@@ -136,7 +136,7 @@
             <div class="col-lg-7 studyPhilippinesCol">
               <div class="studyPhilippinesHead">
                 <h3>Study MBBS In Philippines</h3>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <div class="studyPhilippinesContent">
                 <p>
@@ -159,6 +159,7 @@
               <div class="studyPhilippinesImg">
                 <img
                   src="<?php bloginfo('template_directory');?>/assets/images/philippines/studyPhilippines img1.webp"
+                  alt="MBBS In Philippines For Indian Students & International Students" 
                 />
               </div>
             </div>
@@ -172,7 +173,7 @@
         <div class="advantages1Container">
           <div class="advantages1Head">
             <h3>Advantages of Study MBBS in Philippines</h3>
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="MBBS In Philippines For Indian Students & International Students" />
           </div>
           <div class="advantages1Para">
             <h4>MBBS Admission Process in Philippines, Abroad</h4>
@@ -194,7 +195,7 @@
       <div class="container">
         <div class="qualificationsHead">
           <h3>Educational Qualifications</h3>
-          <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="MBBS In Philippines For Indian Students & International Students" />
           <p>
             To be eligible for an MBBS course in the Philippines, Abroad
             candidates must meet the following educational qualifications
@@ -203,7 +204,7 @@
         <div class="qualificationsBox">
           <div class="qualificationsContent">
             <div class="qualificationsImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/High School Diploma.png" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/High School Diploma.png" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
             <h4>High School Diploma</h4>
             <p>
@@ -214,7 +215,7 @@
 
           <div class="qualificationsContent">
             <div class="qualificationsImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Science Stream.png" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Science Stream.png" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
             <h4>Science Stream</h4>
             <p>
@@ -227,7 +228,7 @@
 
           <div class="qualificationsContent">
             <div class="qualificationsImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Minimum GPA.png" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Minimum GPA.png" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
             <h4>Minimum GPA</h4>
             <p>
@@ -240,7 +241,7 @@
 
           <div class="qualificationsContent">
             <div class="qualificationsImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/High School Diploma.png" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/High School Diploma.png" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
             <h4>Entrance Examinations</h4>
             <p>
@@ -252,7 +253,7 @@
 
         <div class="qualificationsContent2">
           <div class="qualificationsImg2">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Language Proficiency.png" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/Language Proficiency.png" alt="MBBS In Philippines For Indian Students & International Students" />
           </div>
           <div class="qualificationsPara1">
             <h4>Language Proficiency</h4>
@@ -273,7 +274,7 @@
       <div class="container">
         <div class="advantage2Head">
           <h3>Advantages Of MBBS In PHILIPPINES</h3>
-          <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="MBBS In Philippines For Indian Students & International Students" />
         </div>
         <div class="row">
           <div class="col-lg-6 advantagePointBox1">
@@ -389,7 +390,7 @@
                   MBBS In Philippines For Indian Students & International
                   Students
                 </h3>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <div class="studentIndiaContent">
                 <p>
@@ -416,7 +417,7 @@
             </div>
             <div class="col-lg-6 studentIndiaImg">
               <div class="">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/studentIndia img.webp" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/studentIndia img.webp" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
             </div>
           </div>
@@ -429,14 +430,14 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="highFMCEimg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/high FMCE.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/high FMCE.webp" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
           </div>
           <div class="col-lg-6">
             <div class="highFMCE">
               <div class="highFMCEHead">
                 <h4>High FMGE / MCI Screening Test Passing Percentage</h4>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <ul class="highFMCEPoints">
                 <li>
@@ -454,7 +455,7 @@
             <div class="languageProblem">
               <div class="languageProblemHead">
                 <h4>No language Problem</h4>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <ul class="languageProblemPoint">
                 <li>
@@ -474,7 +475,7 @@
             <div class="mdMedicine">
               <div class="mdMedicineHead">
                 <h4>R&D in Medicine</h4>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <ul class="mdMedicinePoint">
                 <li>
@@ -489,7 +490,7 @@
             <div class="clinicaltraining">
               <div class="clinicaltrainingHead">
                 <h4>Good Clinical Training</h4>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <ul class="clinicaltrainingPoint">
                 <li>
@@ -504,7 +505,7 @@
 
           <div class="col-lg-6 clinicaltrainingImg">
             <div class="">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/goodtraining.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/philippines/goodtraining.webp" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
           </div>
         </div>
@@ -517,14 +518,14 @@
           <div class="row">
             <div class="col-lg-6 pgUSAimg">
               <div class="">
-                <img src="<?php bloginfo('template_directory');?>/assets//images/philippines/pgUSA.webp" />
+                <img src="<?php bloginfo('template_directory');?>/assets//images/philippines/pgUSA.webp" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
             </div>
 
             <div class="col-lg-6">
               <div class="pgUSAhead">
                 <h3>Gateway to PG in USA & International Job opportunities</h3>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="MBBS In Philippines For Indian Students & International Students" />
               </div>
               <ul class="pgUSApoints">
                 <li>
@@ -568,7 +569,7 @@
                 Benefits For Indian And International Students - Study MBBS In
                 Philippines
               </h3>
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="MBBS In Philippines For Indian Students & International Students" />
             </div>
             <ul class="benefitsPhilippines1Ponits">
               <li>
@@ -602,7 +603,7 @@
           <div class="col-lg-6 benefitsPhilippines1img-Co">
             <div class="benefitsPhilippines1img">
               <img
-                src="<?php bloginfo('template_directory');?>/assets/images/philippines/benefitsPhilippines1img.webp"
+                src="<?php bloginfo('template_directory');?>/assets/images/philippines/benefitsPhilippines1img.webp" alt="MBBS In Philippines For Indian Students & International Students" 
               />
             </div>
           </div>
@@ -617,7 +618,7 @@
             <div class="col-lg-6 benefitsPhilippines2img-Co">
               <div class="benefitsPhilippines2img">
                 <img
-                  src="<?php bloginfo('template_directory');?>/assets/images/philippines/benefitsPhilippines2img.webp"
+                  src="<?php bloginfo('template_directory');?>/assets/images/philippines/benefitsPhilippines2img.webp"  alt="MBBS In Philippines For Indian Students & International Students" 
                 />
               </div>
             </div>

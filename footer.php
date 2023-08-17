@@ -23,7 +23,7 @@
       <div class="col-lg-4 col-md-6 footerSide1">
         <div class="footerSide1Box">
           <a href="https://www.uphdjgtmedicaluniversity.com/" class="footerLogo">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo footer.png" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/Tamayo-logo footer.png" alt="Dr. Jose G. Tamayo Medical University in Manila, Philippines"/>
           </a>
           <p>
             Empowering Future Healthcare Leaders with Excellence in

@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery - UPH- Dr. Jose. G Tamayo Medical University</title>
-  <meta name="description" content="Dr.Jose.G Tamayo Medical University is one of the Best Medical University in Philippines, Look into the Modern Library, Modern Classroom, Digital Webinars">
+  <title>Best Medical University in Philippines - Dr Josh G Tamayo Medical University </title>
+  <meta name="description" content="Dr.Josh G Tamayo Medical University is one of the Best Medical University in Philippines, Look into the Modern Library, Modern Classroom, Digital Webinars.">
   <meta name="keywords" content="Best Medical University in Philippines">
   <?php get_header();?>
 
@@ -26,88 +26,88 @@
     <section class="gallery">
       <div class="grid-wrapper">
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/images (1).jpeg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/images (1).jpeg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/class-room1.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/class-room1.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="tall galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance2.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance2.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="wide galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/building1.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/building1.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall3.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall3.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="tall galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab2.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab2.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="big galleryImg">
           <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance-building.jpg" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/infra.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/infra.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="wide galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall1.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall1.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="big galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance1.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance1.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="tall galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/smartclass2.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/smartclass2.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/nurcing.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/nurcing.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library1.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library1.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
           <img
             src="<?php bloginfo('template_directory');?>/assets/images/gallery/UPHDJGT MEDICAL UNIVERSITY Respiratory Therapy.jpg"
-            alt=""
+            alt="Best Medical University in Philippines"
           />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/building2.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/building2.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="wide galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall2.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall2.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab1.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab1.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="wide galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/exam-hall.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/exam-hall.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="big galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/counter.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/counter.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library3.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library3.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/smartclass.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/smartclass.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="big galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/images.jpeg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/images.jpeg" alt="Best Medical University in Philippines" />
         </div>
         <div class="tall galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/IMG_20210301_153358.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/IMG_20210301_153358.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/class-room2.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/class-room2.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab4.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab4.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="wide galleryImg">
           <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library-entrance.jpg" />
         </div>
         <div class="galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab3.jpg" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab3.jpg" alt="Best Medical University in Philippines" />
         </div>
       </div>
     </section>

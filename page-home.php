@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - UPH- Dr. Jose. G Tamayo Medical University</title>
-  <meta name="description" content="UPH-Dr.Jose G. Tamayo Medical University is one of the best university in Manila,Philiipines.Tamayo Medical University provide higer level education to our students. Apply Now!">
+  <title>Dr. Jose G. Tamayo Medical University in Manila, Philippines</title>
+  <meta name="description" content="Tamayo Medical University is one of the best university in Manila,Philiipines to provide  higer level of modern educational experience for our students. Apply Now!">
   <meta name="keywords" content="tamayo medical university,best medical university in philippines,Dr.Jose.G.Tamayo Medical University,UPH-Dr.Jose G.Tamayo Medical University">
   <?php get_header();?>
 
@@ -26,7 +26,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6 homeAboutImg1">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/entrance-building.jpg" alt="" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/entrance-building.jpg" alt="Tamayo Medical University in Philippines" />
           </div>
           <div class="col-lg-6 homeContent1">
             <h3>About UPH- Dr. Jose. G Tamayo Medical University</h3>
@@ -56,7 +56,7 @@
             </p>
           </div>
           <div class="col-lg-6 homeAboutImg2">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/library-entrance.jpg" alt="" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/library-entrance.jpg" alt="Tamayo Medical University in Philippines" />
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
 
     <div class="middelBanner">
       <div class="middelImg">
-        <img src="<?php bloginfo('template_directory');?>/assets/images/home/47year.webp" alt="" />
+        <img src="<?php bloginfo('template_directory');?>/assets/images/home/47year.webp" alt="Tamayo Medical University in Philippines" />
       </div>
     </div>
 
@@ -152,7 +152,7 @@
             </div>
             <div class="col-lg-6 studLifeImg1">
               <div class="">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/stud life 1.png" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/stud life 1.png" alt="Tamayo Medical University in Philippines" />
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@
           <div class="row">
             <div class="col-lg-6 studLifeImg2">
               <div>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/std life 2.webp" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/std life 2.webp" alt="Tamayo Medical University in Philippines" />
               </div>
             </div>
             <div class="col-lg-6 studLifeConten">
@@ -217,7 +217,7 @@
               <div class="testamonialContentBox">
                 <div class="testamonialImg">
                   <div class="graduatedImg">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="" />
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="Tamayo Medical University in Philippines" />
                   </div>
                   <h4>Ritheesh</h4>
                 </div>
@@ -239,7 +239,7 @@
               <div class="testamonialContentBox">
                 <div class="testamonialImg">
                   <div class="graduatedImg">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="" />
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="Tamayo Medical University in Philippines" />
                   </div>
                   <h4>Rajat</h4>
                 </div>
@@ -262,7 +262,7 @@
               <div class="testamonialContentBox">
                 <div class="testamonialImg">
                   <div class="graduatedImg">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="" />
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="Tamayo Medical University in Philippines" />
                   </div>
                   <h4>Karuniya</h4>
                 </div>
@@ -284,7 +284,7 @@
               <div class="testamonialContentBox">
                 <div class="testamonialImg">
                   <div class="graduatedImg">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="" />
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/home/graduated.png" alt="Tamayo Medical University in Philippines" />
                   </div>
                   <h4>Sagar</h4>
                 </div>
@@ -312,14 +312,14 @@
         <div class="accreditationBox">
           <div class="accreditationHead">
             <h3>Accreditation</h3>
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="Tamayo Medical University in Philippines" />
           </div>
           <div class="accreditImgBox">
             <div class="accreditImg1">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/nmc.webp" alt="" />
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/ecf.jpg" alt="" />
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/ched.jpg" alt="" />
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/wdoms.jpg" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/nmc.webp" alt="Tamayo Medical University in Philippines" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/ecf.jpg" alt="Tamayo Medical University in Philippines" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/ched.jpg" alt="Tamayo Medical University in Philippines" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/wdoms.jpg" alt="Tamayo Medical University in Philippines" />
             </div>
           </div>
         </div>
@@ -393,7 +393,7 @@
             </div>
             <div class="col-lg-5 facilitiesBox2">
               <div class="facilitiesImg">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/facilitiesImg 1.webp" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/facilitiesImg 1.webp" alt="Tamayo Medical University in Philippines" />
               </div>
             </div>
           </div>
@@ -404,14 +404,14 @@
       <div class="container associatesBox">
         <div class="associatesHead">
           <h3>Authorized Associates</h3>
-          <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="Tamayo Medical University in Philippines" />
         </div>
         <div class="accreditImgBox">
           <div class="accreditImg1">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/global 01.webp" alt="" />
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/med world.webp" alt="" />
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/lotus 1.webp" alt="" />
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/neolife 1.webp" alt="" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/global 01.webp" alt="Tamayo Medical University in Philippines" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/med world.webp" alt="Tamayo Medical University in Philippines" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/lotus 1.webp" alt="Tamayo Medical University in Philippines" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/neolife 1.webp" alt="Tamayo Medical University in Philippines" />
           </div>
         </div>
       </div>
@@ -425,12 +425,12 @@
             University In Philippines Provide The Best Educational Experience
             For Our Students With The Top-Notch Campus Facilities
           </h3>
-          <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="Tamayo Medical University in Philippines" />
         </div>
         <div class="facilitiescarousel owl-carousel owl-theme">
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/anatomy 1.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/anatomy 1.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Anatomy</h4>
@@ -445,7 +445,7 @@
 
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/cadaver.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/cadaver.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Cadaver</h4>
@@ -459,7 +459,7 @@
 
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/library 1.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/library 1.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Library</h4>
@@ -476,7 +476,7 @@
 
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Simulation Lab 1.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Simulation Lab 1.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Simulation Lab</h4>
@@ -491,7 +491,7 @@
 
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Lecture Halls.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Lecture Halls.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Lecture Halls</h4>
@@ -505,7 +505,7 @@
 
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Research Centres.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Research Centres.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Research Centres</h4>
@@ -518,7 +518,7 @@
 
           <div class="facilitiesCol">
             <div class="campusFacilitiesImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Computer Labs.png" alt="" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Computer Labs.png" alt="Tamayo Medical University in Philippines" />
             </div>
             <div class="facilitiescontent">
               <h4>Computer Labs</h4>
