@@ -82,8 +82,7 @@
   margin-bottom: 12px;
 }
 .subBtn {
-  display: flex;
-  align-items: center;
+  width: 100%;
 }
 .subBtn button {
   position: relative;

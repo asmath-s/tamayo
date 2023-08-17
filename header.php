@@ -41,11 +41,16 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/header.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/footer.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/home.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/gallery.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/about.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/philippines.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/blog.css"/>
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/contact.css"/>
+
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/form.css"/>
-    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/gallery.css"/>
+ 
+
+    
     <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/responsive.css" />
 
   </head>
