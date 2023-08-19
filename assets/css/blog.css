@@ -1,4 +1,178 @@
-.blimage {
+.blogMain {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blogGrid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blog1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog1Upper {
+  position: relative;
+  width: 100%;
+  margin: 0 0 var(--custom-margin, 20px) 0;
+}
+.blog1Upper img {
+  width: 100%;
+}
+.blog1Image {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.blog1Image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.blog1Image:hover img {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+.blog1Image img {
+  height: 200px !important;
+  object-fit: cover;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.blog1-date {
+  margin-bottom: 20px;
+}
+.blog1-day {
+  line-height: 1;
+  font-size: 16px;
+}
+.blog1-Month {
+  line-height: 1;
+  font-size: 14px;
+}
+.blog1-ContentBox.inside {
+  background: #fff;
+  margin: -55px 20px 0;
+  z-index: 1;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px 0
+    var(--post-color-dark-15, rgba(34, 34, 34, 0.15));
+  box-shadow: 0 0 10px 0 var(--post-color-dark-15, rgba(34, 34, 34, 0.15));
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+.blog1-ContentBox {
+  width: 100%;
+  padding: 25px;
+}
+.blog1-ContentBox h3 {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  margin-bottom: 10px;
+}
+.blog1contentTitle {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.blog1-ContentBox p {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+  margin-bottom: 15px;
+}
+.blog1-ContentBox p::after {
+  content: " "; /* Display three dots */
+  position: absolute;
+  right: 0; /* Position the dots at the right end */
+  bottom: 0;
+  background: white;
+  padding: 0 4px;
+}
+.readBtn {
+  position: relative;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.readBtn:hover {
+  color: #00234e;
+}
+.readBtn::after {
+  content: "";
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  width: 0;
+  background: currentColor;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.readBtn span {
+  margin-right: 10px;
+}
+
+.blog-carousel {
+  display: flex;
+}
+
+@media only screen and (max-width: 991px) {
+  .blogGrid {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .blogMain {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog1-ContentBox.inside {
+    margin: -35px 15px 0;
+  }
+  .blog1-ContentBox {
+    width: 100%;
+    padding: 15px;
+  }
+  .blog1-ContentBox h3 {
+    font-size: 14px;
+  }
+  .blog1contentTitle a {
+    line-height: 20px;
+  }
+  .blog1-ContentBox p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .blogGrid {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* .blimage {
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -45,4 +219,62 @@
 .blbtn:hover {
   background: #ee1c25;
   color: white;
+} */
+
+/* Blog Details CSS */
+.blogdetail {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.detailTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailTop img {
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center center;
+  margin-bottom: 20px;
+}
+.detail-date {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+.detail-day {
+  line-height: 1;
+  font-size: 17px;
+}
+.detail-Month {
+  line-height: 1;
+  font-size: 15px;
+}
+.detailContent {
+  padding: 20px;
+}
+.detailHead1 {
+  margin-bottom: 20px;
+}
+.detailHead1 h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: justify;
+}
+.detailContent p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+.detailContent h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.detailContent h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.detail-sub-image1 {
+  margin-bottom: 20px;
 }
