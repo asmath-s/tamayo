@@ -10,13 +10,14 @@
 }
 .footerLogo img {
   border-radius: 10px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 .footerSide1Box p {
+  font-size: 16px;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
-.readMoreBtn {
+/* .readMoreBtn {
   display: flex;
   align-items: center;
 }
@@ -30,7 +31,7 @@
   font-weight: 600;
   overflow: hidden;
   cursor: pointer;
-}
+} */
 .footerSide2 {
   display: flex;
   flex-direction: column;
@@ -41,9 +42,10 @@
 }
 .offialInfo h3,
 .openTime h3 {
+  font-size: 20px;
   color: #f8c629;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .offialInfo a {
   display: flex;
@@ -68,10 +70,39 @@
   font-weight: 600;
   margin-bottom: 10px;
 }
+.social-icons-footer {
+  gap: 12px;
+  color: #fff;
+}
+.social-icons-footer i {
+  font-size: 18px;
+}
+.social-icons-footer a {
+  color: #fff;
+}
+.social-icons-footer a:hover {
+  color: #f8c629;
+}
 .footerSide2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.quickLinks h3 {
+  color: #f8c629;
+  margin-bottom: 20px;
+}
+.quicklinks-line li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.quicklinks-line li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.quicklinks-line li a:hover {
+  color: #f8c629;
 }
 .Contactform1 {
   background: #fff;
