@@ -41,10 +41,10 @@
           <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/hall3.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="tall galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab2.jpg" alt="Best Medical University in Philippines" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab2.jpg" alt="Tamayo Medical University in Philippines" />
         </div>
         <div class="big galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance-building.jpg" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/entrance-building.jpg" alt="Tamayo Medical University in Philippines"/>
         </div>
         <div class="galleryImg">
           <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/infra.jpg" alt="Best Medical University in Philippines" />
@@ -104,7 +104,7 @@
           <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab4.jpg" alt="Best Medical University in Philippines" />
         </div>
         <div class="wide galleryImg">
-          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library-entrance.jpg" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/library-entrance.jpg" alt="Tamayo Medical University in Philippines"/>
         </div>
         <div class="galleryImg">
           <img src="<?php bloginfo('template_directory');?>/assets/images/gallery/lab3.jpg" alt="Best Medical University in Philippines" />

@@ -32,7 +32,7 @@
             <div class="col-lg-6 philippinesContent1">
               <div class="philippinesHead1">
                 <h3>About Philippines</h3>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="MBBS In Philippines For Indian Students & International Students"/>
               </div>
               <div class="philippinesPara1">
                 <p>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-6">
               <div class="philippinesImg1">
-                <img src="<?php bloginfo('template_directory');?>/assets//images/philippines/Philippines 1.webp" />
+                <img src="<?php bloginfo('template_directory');?>/assets//images/philippines/Philippines 1.webp" alt="MBBS In Philippines For Indian Students & International Students"/>
               </div>
             </div>
             <div class="col-lg-6 philippinesImg2">

@@ -192,7 +192,7 @@
    <div>
      <a href="https://api.whatsapp.com/send?phone=918122878122&amp;text=Hello%20UPH%20Dr%20Jose%20G%20Tamayo%20Medical%20University%20%21%21%20Please%20let%20me%20know%20more%20about%20your%20university%20offerings%21%21"
        target="_blank" class="whatsapp-icon">
-       <img src="<?php bloginfo('template_directory');?>/assets/images/icons8-whatsapp-96.png">
+       <img src="<?php bloginfo('template_directory');?>/assets/images/icons8-whatsapp-96.png" alt="Tamayo Medical University in Philippines" />
      </a>
    </div>
    <div id="video-popup" class="video-popup mfp-hide">

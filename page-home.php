@@ -67,7 +67,8 @@
           <div class="row">
             <div class="col-lg-6 homeVideo1">
               <div class="">
-                <img src="<?php bloginfo('template_directory');?>/assets//images/home/entrance-building.jpg" />
+                <img src="<?php bloginfo('template_directory');?>/assets//images/home/entrance-building.jpg" alt="Tamayo Medical University in Philippines" />
+          </div>"/>
               </div>
             </div>
             <div class="col-lg-6">
@@ -120,7 +121,8 @@
                 <h3>
                   Our Students Life In Dr.Jose.G.Tamayo Medical University
                 </h3>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="Tamayo Medical University in Philippines" />
+          </div>"/>
               </div>
               <div>
                 <ul class="lifePoints1">
@@ -210,7 +212,7 @@
           <div class="testamonialBox">
             <div class="testamonialHead">
               <h3>Testimonial</h3>
-              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="Tamayo Medical University in Philippines"/>
             </div>
 
             <div class="testimonial-carousel owl-carousel owl-theme">
@@ -350,7 +352,7 @@
                   UPH-Dr. Jose G. Tamayo Medical University Facilities And
                   Infrastructure
                 </h3>
-                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/home/Line 9.png" alt="Tamayo Medical University in Philippines"/>
               </div>
               <div class="facilitiesPointBox">
                 <div class="facilitiesPoints">
@@ -539,7 +541,7 @@
         <div class="faqBox">
           <div class="faqHead">
             <h3>FAQ</h3>
-            <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+            <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="Tamayo Medical University in Philippines"/>
           </div>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item mb-15">

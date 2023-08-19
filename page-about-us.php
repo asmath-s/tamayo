@@ -28,7 +28,7 @@
       <div class="container">
         <div class="aboutHead">
           <h3>About Us</h3>
-          <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" />
+          <img src="<?php bloginfo('template_directory');?>/assets/images/home/line yellow.png" alt="Tamayo Medical University in Philippines"/>
         </div>
         <div class="row">
           <div class="col-lg-6">
@@ -62,7 +62,7 @@
           </div>
           <div class="col-lg-6">
             <div class="aboutBoxImg">
-              <img src="<?php bloginfo('template_directory');?>/assets/images/about/about 01.webp" />
+              <img src="<?php bloginfo('template_directory');?>/assets/images/about/about 01.webp" alt="Tamayo Medical University in Philippines"/>
             </div>
           </div>
           <div class="col-lg-6">
@@ -94,7 +94,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="aboutBoxImg2">
-                <img src="<?php bloginfo('template_directory');?>/assets/images/about/Group 58.png" />
+                <img src="<?php bloginfo('template_directory');?>/assets/images/about/Group 58.png" alt="Tamayo Medical University in Philippines"/>
               </div>
             </div>
             <div class="col-lg-6 aboutstd">
