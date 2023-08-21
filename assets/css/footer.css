@@ -162,6 +162,9 @@
   .footerContactform {
     margin-top: 30px;
   }
+  .footerSide2 {
+    align-items: flex-start;
+  }
 }
 @media only screen and (max-width: 767px) {
   .footer-area {
@@ -177,9 +180,6 @@
   }
   .footerSide1Box p {
     margin-bottom: 18px;
-  }
-  .footerSide2 {
-    align-items: flex-start;
   }
   .offialInfo {
     padding-left: 30px;

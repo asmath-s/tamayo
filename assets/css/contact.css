@@ -67,7 +67,9 @@
   width: 100%;
 }
 .contact-form {
-  padding-left: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 25px;
+  border-radius: 20px;
 }
 .subBtn1 {
   display: flex;
