@@ -50,8 +50,9 @@
             <a href="tel:+918122878122"><i class="fa-solid fa-phone"
                 style="color: #ffffff"></i><span>8122878122</span></a>
             <h3>Open Hours</h3>
-            <p>Mon - Fri: 09 AM - 06 PM,</p>
-            <p>Saturday & Sunday: 09 AM - 01 PM</p>
+            <p>Mon - Fri: 09 AM - 07 PM,</p>
+            <p>Saturday: 09 AM - 05 PM</p>
+            <p>Sunday: Closed</p>
           </div>
       </div>
       <div class="col-lg-3 col-md-6 footerSide2">
